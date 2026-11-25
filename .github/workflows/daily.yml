@@ -8,7 +8,7 @@ on:
     inputs:
       only: {description: 'prices | news | all', default: all}
 permissions: {contents: write}
-concurrency: {group: data-commit, cancel-in-progress: false}
+concurrency: {group: daily, cancel-in-progress: false}
 jobs:
   run:
     runs-on: ubuntu-latest
