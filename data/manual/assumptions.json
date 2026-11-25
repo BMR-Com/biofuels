@@ -7,7 +7,8 @@
  "z45": {"max_per_gal": 1.0, "inflation_factor": 1.065, "threshold": 50, "north_american_only_from": 2026},
  "opex_per_gal": {"BD": 0.50, "RD": 0.70, "SAF": 0.90},
  "coproduct_per_gal": {"BD": 0.075, "RD": 0.10, "SAF": 0.25},
- "feedstock_fallback_vs_zl_c_lb": {"canola": 4.0, "dco": -6.0, "tallow": -8.0, "uco": -10.0},
+ "feedstock_fallback_vs_zl_c_lb": {"canola": 4.0, "dco": -6.0, "tallow": 6.0, "uco": 2.0},
+ "feedstock_spread_note": "Desk spreads to front soybean oil, set 25 Nov 2026 from industry estimates: Midwest UCO about 2c over, Midwest bleachable tallow about 6c over, yellow grease about 3.5c under. UCO is priced off soybean oil plus this spread because the free USDA yellow grease quote is a lower grade. Review monthly.",
  "pathways": [
   {"id": "soy_bd",    "label": "Soybean oil biodiesel",        "fuel": "BD", "feed": "soybean", "ci_carb": 55, "ci_45z": 27, "na_feed": true},
   {"id": "soy_rd",    "label": "Soybean oil renewable diesel", "fuel": "RD", "feed": "soybean", "ci_carb": 56, "ci_45z": 27, "na_feed": true},

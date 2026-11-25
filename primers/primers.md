@@ -60,6 +60,8 @@ Plain-language, desk-level primers on every variable we track. Market levels quo
 
 **What to watch.** EIA feedstock data (yellow grease); Census imports by origin; ARA and Asian UCO prices; EU SAF demand; 45Z rules and the 2028 half-RIN rule; fraud and traceability actions.
 
+**Feedstock spreads.** Waste fats are quoted as a spread to front-month soybean oil and follow the board with a lag of a week or two, so two or three weeks of falling soybean oil usually show up next in UCO, yellow grease and tallow bids. In late November 2026 Midwest UCO sat about 2¢/lb over soybean oil, yellow grease about 3.5¢ under, and bleachable tallow about 4¢ over UCO (industry estimates). A narrowing discount of yellow grease to soybean oil means renderers have pricing power; a widening one means feedstock is in surplus.
+
 **Rule of thumb.** US Gulf delivered UCO was about 68.5¢/lb against about 60¢ for soybean oil (November 2026). Under 2026 45Z, UCO's CI advantage is worth about 5¢/lb over soy, and under LCFS it is worth much more at $80–90 credits.
 
 ---
@@ -72,7 +74,7 @@ Plain-language, desk-level primers on every variable we track. Market levels quo
 
 **What to watch.** USDA cattle and hog slaughter; Jacobsen and USDA tallow quotes; EIA feedstock (tallow, white grease, poultry); Census imports (Brazil, Australia); tariffs on Brazil; Fastmarkets/Argus fat-to-soy spreads.
 
-**Rule of thumb.** Tallow typically trades at a few ¢/lb discount to soybean oil, narrowing when credit prices rise. Tallow is about 20% of US biofuel feedstock today and is projected to reach about 27% by 2027 (industry estimates).
+**Rule of thumb.** Supply follows slaughter with about a one-month lag: a heavy month of cattle slaughter shows up as more tallow in the next USDA Fats and Oils report. Bleachable tallow traded about 6¢/lb over soybean oil in November 2026 (industry estimates), so the old rule that tallow sits at a discount no longer holds while credits are high. Historically, tallow traded at a few ¢/lb discount to soybean oil, narrowing when credit prices rise. Tallow is about 20% of US biofuel feedstock today and is projected to reach about 27% by 2027 (industry estimates).
 
 ---
 
@@ -297,6 +299,8 @@ Plain-language, desk-level primers on every variable we track. Market levels quo
 **What it is.** One LCFS credit = 1 metric ton of CO2e reduced below the annual CI standard. Fuels below the standard generate credits; fossil fuels above it generate deficits. Credits trade bilaterally and are reported monthly by CARB.
 
 **How it moves prices.** The credit price sets how much California pays for low-CI diesel, so it governs RD and BD flows into the state and the premium for waste fats. The July 2025 amendments tightened standards (a one-time cut to 22.75% in 2025, 30% by 2030, 90% by 2045). They also added an Automatic Acceleration Mechanism (earliest trigger May 2027) and a 20% cap on crop-oil credits from 2028. As deficits outran credits in 2026, prices rose from about $57 (Q4 2025) to $71 (July average) and the high $80s to about $90 by October.
+
+**Spot vs reported averages.** CARB, Oregon and Washington publish the average price of credit transfers, which includes deals priced weeks or months earlier. In a rising market that average sits below spot: in late November 2026 the CARB weekly average was in the low $80s while spot traded near $97 (industry estimates). The desk model uses the published average, so its LCFS value lags a fast move.
 
 **What to watch.** CARB monthly transfer reports and weekly averages; quarterly credit/deficit data; credit bank; AAM trigger test; CARB pathway decisions; litigation.
 

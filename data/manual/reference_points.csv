@@ -1,0 +1,13 @@
+date,area,item,value,unit,note,source
+2026-11-25,RIN,D4 RIN,1.82,$/RIN,down 20c on the week,industry estimates
+2026-11-25,LCFS,California LCFS spot,96.75,$/t,fifth weekly rise,industry estimates
+2026-11-25,LCFS,Oregon CFP spot,87.00,$/t,flat,industry estimates
+2026-11-25,LCFS,Washington CFS spot,82.50,$/t,flat,industry estimates
+2026-11-25,Feedstock,Midwest UCO,59.5-61,c/lb,regional range 59.5-67,industry estimates
+2026-11-25,Feedstock,Midwest yellow grease vs front soybean oil,-3.5,c/lb,was -5,industry estimates
+2026-11-25,Feedstock,Midwest bleachable tallow vs UCO,4.0,c/lb,was 5.5,industry estimates
+2026-11-25,Margin,UCO renewable diesel gross margin,2.88,$/gal,"gross, before opex; incl. D4, LCFS and 45Z",industry estimates
+2026-11-25,Margin,UCO renewable diesel credit stack,4.39,$/gal,D4 3.09 + LCFS + 45Z,industry estimates
+2026-11-25,Supply,US RD utilisation October,80,%,94% in September,industry estimates
+2026-11-25,RIN bank,2025 D4/D5 carryover,1.46,bn RINs,earlier estimate 1.65,industry estimates
+2026-11-25,RIN bank,2026 D4/D5 net bank,-0.07,bn RINs,deficit,industry estimates

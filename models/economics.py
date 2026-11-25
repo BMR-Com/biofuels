@@ -46,12 +46,15 @@ def feed_prices(latest):
     zl = px(latest, "ZL")
     fb = A["feedstock_fallback_vs_zl_c_lb"]
     out = {"soybean": (zl, "CBOT soybean oil front month")}
-    for k, item, lab in (("dco", "dco_ia", "USDA AMS distillers corn oil"), ("tallow", "tallow_bft", "USDA AMS bleachable tallow"),
-                         ("uco", "yg_mn", "USDA AMS yellow grease (UCO proxy)")):
+    for k, item, lab in (("dco", "dco_ia", "USDA AMS distillers corn oil"), ("tallow", "tallow_bft", "USDA AMS bleachable tallow")):
         v, d = ams_latest(item)
-        if v is None and k == "uco":
-            v, d = ams_latest("yg_rt")
-        out[k] = (v, f"{lab} {d}") if v is not None else ((zl + fb[k]) if zl else None, f"CBOT soybean oil {fb[k]:+.0f}c/lb (desk spread; cash feed missing)")
+        out[k] = (v, f"{lab} {d}") if v is not None else ((zl + fb[k]) if zl else None, f"CBOT soybean oil {fb[k]:+.0f}c/lb (desk spread; cash quote missing)")
+    out["uco"] = ((zl + fb["uco"]) if zl else None, f"CBOT soybean oil {fb['uco']:+.0f}c/lb (desk spread to Midwest UCO)")
+    v, d = ams_latest("yg_mn")
+    if v is None:
+        v, d = ams_latest("yg_rt")
+    if v is not None:
+        out["yellow_grease"] = (v, f"USDA AMS yellow grease {d} (reference only)")
     out["canola"] = ((zl + fb["canola"]) if zl else None, f"CBOT soybean oil {fb['canola']:+.0f}c/lb (no free US canola oil cash price)")
     fc, fx = px(latest, "FCPO"), px(latest, "USDMYR")
     out["palm"] = ((fc / fx / 22.0462) if fc and fx else None, "Bursa FCPO converted at USD/MYR (not RFS-eligible; comparison only)")
