@@ -53,4 +53,6 @@ jobs:
         run: |
           python models/economics.py
           python models/balance.py
-      - run: pipelines/commit.sh "monthly: $(date -u +%F) ${{ steps.pick.outputs.only }}"
+      - name: commit
+        run: |
+          pipelines/commit.sh "monthly: $(date -u +%F) ${{ steps.pick.outputs.only }}"

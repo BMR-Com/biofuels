@@ -17,4 +17,6 @@ jobs:
       - run: pip install -q requests
       - env: {GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'}
         run: python pipelines/catchup.py
-      - run: pipelines/commit.sh "catch-up: $(date -u +%F)"
+      - name: commit
+        run: |
+          pipelines/commit.sh "catch-up: $(date -u +%F)"

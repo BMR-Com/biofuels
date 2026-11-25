@@ -33,4 +33,6 @@ jobs:
       - name: refresh model
         continue-on-error: true
         run: python models/economics.py
-      - run: pipelines/commit.sh "weekly: $(date -u +%F)"
+      - name: commit
+        run: |
+          pipelines/commit.sh "weekly: $(date -u +%F)"
