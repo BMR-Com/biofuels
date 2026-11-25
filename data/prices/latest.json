@@ -1,0 +1,224 @@
+{
+ "updated": "2026-11-25 04:28",
+ "prices": {
+  "ZL": {
+   "close": 57.83,
+   "date": "2026-11-25",
+   "contract": "c1",
+   "unit": "c/lb",
+   "desc": "CBOT soybean oil",
+   "prev": 58.32,
+   "stale": false
+  },
+  "ZS": {
+   "close": 1225.75,
+   "date": "2026-11-25",
+   "contract": "c1",
+   "unit": "c/bu",
+   "desc": "CBOT soybeans",
+   "prev": 1234.0,
+   "stale": false
+  },
+  "ZM": {
+   "close": 350.4,
+   "date": "2026-11-25",
+   "contract": "c1",
+   "unit": "$/st",
+   "desc": "CBOT soybean meal",
+   "prev": 351.1,
+   "stale": false
+  },
+  "ZC": {
+   "close": 434.25,
+   "date": "2026-11-25",
+   "contract": "c1",
+   "unit": "c/bu",
+   "desc": "CBOT corn",
+   "prev": 434.0,
+   "stale": false
+  },
+  "OSF": {
+   "close": 45.375,
+   "date": "2026-11-24",
+   "contract": "c1",
+   "unit": "%",
+   "desc": "CBOT soybean oilshare",
+   "prev": 46.35,
+   "stale": false
+  },
+  "HO": {
+   "close": 3.6146,
+   "date": "2026-11-25",
+   "contract": "c1",
+   "unit": "$/gal",
+   "desc": "NYMEX NY Harbor ULSD",
+   "prev": 3.6588,
+   "stale": false
+  },
+  "RB": {
+   "close": 2.4072,
+   "date": "2026-11-25",
+   "contract": "c1",
+   "unit": "$/gal",
+   "desc": "NYMEX RBOB gasoline",
+   "prev": 2.4406,
+   "stale": false
+  },
+  "CL": {
+   "close": 80.78,
+   "date": "2026-11-25",
+   "contract": "c1",
+   "unit": "$/bbl",
+   "desc": "NYMEX WTI crude",
+   "prev": 82.05,
+   "stale": false
+  },
+  "CU": {
+   "close": 1.855,
+   "date": "2026-11-24",
+   "contract": "c1",
+   "unit": "$/gal",
+   "desc": "Chicago ethanol (Platts) swap",
+   "prev": 1.875,
+   "stale": false
+  },
+  "RN4": {
+   "close": 2.0035,
+   "date": "2026-11-23",
+   "contract": "c1",
+   "unit": "$/RIN",
+   "desc": "D4 biomass-based diesel RIN (OPIS)",
+   "prev": 2.0176,
+   "stale": false
+  },
+  "RN6": {
+   "close": 1.8719,
+   "date": "2026-11-23",
+   "contract": "c1",
+   "unit": "$/RIN",
+   "desc": "D6 renewable fuel RIN (OPIS)",
+   "prev": 1.8817,
+   "stale": false
+  },
+  "RN3": {
+   "close": 2.6656,
+   "date": "2026-06-09",
+   "contract": "c1",
+   "unit": "$/RIN",
+   "desc": "D3 cellulosic RIN (OPIS)",
+   "prev": 2.6777,
+   "stale": true
+  },
+  "LCS": {
+   "close": 71.5,
+   "date": "2026-06-09",
+   "contract": "c1",
+   "unit": "$/t",
+   "desc": "California LCFS credit (OPIS)",
+   "prev": 71.5,
+   "stale": true
+  },
+  "BHO": {
+   "close": 0.7152,
+   "date": "2026-11-24",
+   "contract": "c1",
+   "unit": "$/gal",
+   "desc": "Soybean oil vs NYH ULSD spread swap",
+   "prev": 0.5372,
+   "stale": false
+  },
+  "FCPO": {
+   "close": 4245.0,
+   "date": "2026-11-24",
+   "contract": "c1",
+   "unit": "MYR/t",
+   "desc": "Bursa crude palm oil",
+   "prev": 4240.0,
+   "stale": false
+  },
+  "FUCO": {
+   "close": 903.5,
+   "date": "2026-11-23",
+   "contract": "c1",
+   "unit": "$/t",
+   "desc": "Bursa used cooking oil",
+   "prev": 903.5,
+   "stale": false
+  },
+  "RS": {
+   "close": 768.9,
+   "date": "2026-11-25",
+   "contract": "c1",
+   "unit": "CAD/t",
+   "desc": "ICE canola",
+   "prev": 771.7,
+   "stale": false
+  },
+  "ECO": {
+   "close": 536.5,
+   "date": "2026-11-24",
+   "contract": "c1",
+   "unit": "EUR/t",
+   "desc": "Euronext rapeseed",
+   "prev": 538.5,
+   "stale": false
+  },
+  "ULS": {
+   "close": 1109.0,
+   "date": "2026-11-25",
+   "contract": "c1",
+   "unit": "$/t",
+   "desc": "ICE low sulphur gasoil",
+   "prev": 1101.75,
+   "stale": false
+  },
+  "FBD": {
+   "close": 1461.545,
+   "date": "2026-06-09",
+   "contract": "c1",
+   "unit": "$/t",
+   "desc": "FAME 0 biodiesel FOB Rdam (Argus)",
+   "prev": 1463.409,
+   "stale": true
+  },
+  "UCR": {
+   "close": 1646.469,
+   "date": "2026-06-09",
+   "contract": "c1",
+   "unit": "$/t",
+   "desc": "UCOME biodiesel FOB ARA (Argus)",
+   "prev": 1644.563,
+   "stale": true
+  },
+  "HVO": {
+   "close": 2801.57,
+   "date": "2026-06-09",
+   "contract": "c1",
+   "unit": "$/t",
+   "desc": "HVO Class II FOB ARA (Argus)",
+   "prev": 2825.226,
+   "stale": true
+  },
+  "USDMYR": {
+   "close": 4.114,
+   "date": "2026-11-25",
+   "unit": "fx",
+   "desc": "USDMYR",
+   "stale": false
+  },
+  "USDCAD": {
+   "close": 1.42713,
+   "date": "2026-11-25",
+   "unit": "fx",
+   "desc": "USDCAD",
+   "stale": false
+  },
+  "EURUSD": {
+   "close": 1.09464,
+   "date": "2026-11-25",
+   "unit": "fx",
+   "desc": "EURUSD",
+   "stale": false
+  }
+ }
+}

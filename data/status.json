@@ -1,86 +1,44 @@
 {
- "epa_emts": {
-  "checked": "2026-11-25 04:27 UTC",
-  "ok": true,
-  "asof": "2026-10",
-  "last_ok": "2026-11-25 04:27 UTC",
-  "detail": ""
- },
- "lcfs_ca_monthly": {
-  "checked": "2026-11-25 04:27 UTC",
-  "ok": true,
-  "asof": "2026-08",
-  "last_ok": "2026-11-25 04:27 UTC",
-  "detail": ""
- },
- "lcfs_ca_weekly": {
-  "checked": "2026-11-25 04:27 UTC",
+ "prices": {
+  "checked": "2026-11-25 04:28 UTC",
   "ok": true,
   "asof": "2026-11-25",
-  "last_ok": "2026-11-25 04:27 UTC",
-  "detail": ""
- },
- "lcfs_oregon": {
-  "checked": "2026-11-25 04:27 UTC",
-  "ok": true,
-  "asof": "2723-01",
-  "last_ok": "2026-11-25 04:27 UTC",
-  "detail": ""
- },
- "lcfs_washington": {
-  "checked": "2026-11-25 04:27 UTC",
-  "ok": true,
-  "asof": "1157-01",
-  "last_ok": "2026-11-25 04:27 UTC",
-  "detail": ""
- },
- "eia_feedstocks": {
-  "checked": "2026-11-25 04:27 UTC",
-  "ok": true,
-  "asof": "2026-08",
-  "last_ok": "2026-11-25 04:27 UTC",
-  "detail": ""
- },
- "eia_capacity": {
-  "checked": "2026-11-25 04:27 UTC",
-  "ok": true,
-  "asof": "2026-08",
-  "last_ok": "2026-11-25 04:27 UTC",
-  "detail": ""
- },
- "eia_mer": {
-  "checked": "2026-11-25 04:27 UTC",
-  "ok": true,
-  "asof": "2026-08",
-  "last_ok": "2026-11-25 04:27 UTC",
-  "detail": ""
- },
- "eia_spot": {
-  "checked": "2026-11-25 04:27 UTC",
-  "ok": true,
-  "asof": "2026-11-17",
-  "last_ok": "2026-11-25 04:27 UTC",
-  "detail": ""
- },
- "wasde": {
-  "checked": "2026-11-25 04:27 UTC",
-  "ok": true,
-  "asof": "2026-11",
-  "last_ok": "2026-11-25 04:27 UTC",
-  "detail": ""
- },
- "psd": {
-  "checked": "2026-11-25 04:27 UTC",
-  "ok": true,
-  "asof": "2026",
-  "last_ok": "2026-11-25 04:27 UTC",
+  "last_ok": "2026-11-25 04:28 UTC",
   "detail": ""
  },
  "model_economics": {
-  "checked": "2026-11-25 04:27 UTC",
-  "ok": false,
-  "asof": null,
-  "last_ok": null,
-  "detail": "RuntimeError: no prices"
+  "checked": "2026-11-25 04:28 UTC",
+  "ok": true,
+  "asof": "2026-11-25",
+  "last_ok": "2026-11-25 04:28 UTC",
+  "detail": ""
+ },
+ "model_balance": {
+  "checked": "2026-11-25 04:28 UTC",
+  "ok": true,
+  "asof": "2026-11-25",
+  "last_ok": "2026-11-25 04:28 UTC",
+  "detail": ""
+ },
+ "news": {
+  "checked": "2026-11-25 04:28 UTC",
+  "ok": true,
+  "asof": "2026-11-24",
+  "last_ok": "2026-11-25 04:28 UTC",
+  "detail": ""
+ },
+ "policy_fedreg": {
+  "checked": "2026-11-25 04:28 UTC",
+  "ok": true,
+  "asof": "2026-10-16",
+  "last_ok": "2026-11-25 04:28 UTC",
+  "detail": ""
+ },
+ "policy_watch": {
+  "checked": "2026-11-25 04:28 UTC",
+  "ok": true,
+  "asof": "2026-11-25",
+  "last_ok": "2026-11-25 04:28 UTC",
+  "detail": ""
  }
 }

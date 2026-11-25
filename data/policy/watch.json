@@ -1,0 +1,27 @@
+{
+ "EPA RFS announcements": {
+  "url": "https://www.epa.gov/renewable-fuel-standard/news-notices-and-announcements-renewable-fuel-standard",
+  "hash": "e84640c31e151775",
+  "checked": "2026-11-25"
+ },
+ "EPA small refinery exemptions": {
+  "url": "https://www.epa.gov/fuels-registration-reporting-and-compliance-help/rfs-small-refinery-exemptions",
+  "hash": "650ed9c400848013",
+  "checked": "2026-11-25"
+ },
+ "EPA RFS annual standards": {
+  "url": "https://www.epa.gov/renewable-fuel-standard/renewable-fuel-annual-standards",
+  "hash": "e583f06ba318a78f",
+  "checked": "2026-11-25"
+ },
+ "IRS 45Z clean fuel production credit": {
+  "url": "https://www.irs.gov/credits-deductions/clean-fuel-production-credit",
+  "hash": "90e2a5297433f4d6",
+  "checked": "2026-11-25"
+ },
+ "CARB LCFS main page": {
+  "url": "https://ww2.arb.ca.gov/our-work/programs/low-carbon-fuel-standard",
+  "hash": "4deede964c2ef293",
+  "checked": "2026-11-25"
+ }
+}

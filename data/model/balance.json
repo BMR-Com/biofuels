@@ -1,0 +1,28 @@
+{
+ "years": {
+  "2026": {
+   "rvo_bbd": 9.07,
+   "rvo_adv": 11.1,
+   "rvo_total": 26.81,
+   "rvo_cel": 1.36,
+   "other_advanced_gap": 0.67,
+   "conventional": 15.71,
+   "bbd_gal_at_1_6": 5.669,
+   "feedstock_bn_lb_at_8": 45.4
+  },
+  "2027": {
+   "rvo_bbd": 9.2,
+   "rvo_adv": 11.32,
+   "rvo_total": 27.02,
+   "rvo_cel": 1.43,
+   "other_advanced_gap": 0.69,
+   "conventional": 15.7,
+   "bbd_gal_at_1_6": 5.75,
+   "feedstock_bn_lb_at_8": 46.0
+  }
+ },
+ "d4_monthly": [],
+ "d6_monthly": [],
+ "d5_monthly": [],
+ "asof": null
+}
