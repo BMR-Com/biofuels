@@ -1,0 +1,77 @@
+{
+ "rows": [
+  {
+   "date": "2026-11-20",
+   "item": "sbo_crude_il",
+   "value": 62.465,
+   "raw": "58.84-66.09",
+   "line": "Illinois Ask -125.00Z to 600.00Z UNCH 58.84-66.09 DN 3.33 62.47 FOB-T/R",
+   "report": "processor"
+  },
+  {
+   "date": "2026-11-20",
+   "item": "sbo_crude_ia",
+   "value": 60.465,
+   "raw": "59.34-61.59",
+   "line": "Iowa Ask -75.00Z to 150.00Z UNCH 59.34-61.59 DN 3.33 60.67 FOB-T/R",
+   "report": "processor"
+  },
+  {
+   "date": "2026-11-20",
+   "item": "dco_ia",
+   "value": 65.0,
+   "raw": "65.00",
+   "line": "Iowa East Ask 65.00 UP 1.00 65.00 53.50 FOB - T Current",
+   "report": "ethanol"
+  },
+  {
+   "date": "2026-11-20",
+   "item": "dco_il",
+   "value": 64.5,
+   "raw": "64.0-65.0",
+   "line": "Illinois Ask 64.00-65.00 UNCH-DN 1.00 64.33 56.25 FOB - T Current",
+   "report": "ethanol"
+  },
+  {
+   "date": "2026-11-20",
+   "item": "yg_mn",
+   "value": 44.0,
+   "raw": "39.0-49.0",
+   "line": "Minnesota Ask 39.00-49.00 DN 3.00-DN 1.00 42.25 33.50 FOB-T",
+   "report": "byproduct"
+  },
+  {
+   "date": "2026-11-20",
+   "item": "yg_ca",
+   "value": 50.0,
+   "raw": "49.0-51.0",
+   "line": "CA-South Ask 49.00-51.00 DN 2.00 50.00 39.50 FOB-T/R",
+   "report": "byproduct"
+  },
+  {
+   "date": "2026-11-20",
+   "item": "cwg_mn",
+   "value": 45.5,
+   "raw": "44.0-47.0",
+   "line": "Minnesota Ask 44.00-47.00 DN 6.00-DN 5.00 45.67 40.75 FOB-T",
+   "report": "byproduct"
+  },
+  {
+   "date": "2026-11-20",
+   "item": "cwg_rt",
+   "value": 45.5,
+   "raw": "45.5",
+   "line": "Minneapolis 44.00- 47.00 50.00- 52.00 38.00- 43.00 Minneapolis Weekly Feedstuffs J F M A M J J A S O N D",
+   "report": "roundup"
+  },
+  {
+   "date": "2026-11-20",
+   "item": "yg_rt",
+   "value": 42.0,
+   "raw": "42.0",
+   "line": "Minneapolis 39.00- 45.00 42.00- 50.00 32.00- 36.00 Minneapolis Weekly Feedstuffs",
+   "report": "roundup"
+  }
+ ],
+ "updated": "2026-11-25"
+}

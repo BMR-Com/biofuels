@@ -1,7 +1,7 @@
 {
- "checked": "2026-11-25 04:29 UTC",
- "ok": false,
- "asof": null,
- "last_ok": null,
- "detail": "RuntimeError: no prices"
+ "checked": "2026-11-25 04:32 UTC",
+ "ok": true,
+ "asof": "2026-11-25",
+ "last_ok": "2026-11-25 04:32 UTC",
+ "detail": ""
 }
