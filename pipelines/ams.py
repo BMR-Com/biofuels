@@ -15,20 +15,25 @@ REPORTS = {"roundup": "https://www.ams.usda.gov/mnreports/lswagenergy.pdf",
            "ethanol": "https://www.ams.usda.gov/mnreports/ams_3616.pdf",
            "byproduct": "https://www.ams.usda.gov/mnreports/ams_3510.pdf",
            "processor": "https://www.ams.usda.gov/mnreports/ams_3511.pdf"}
-# item key -> (report, regex for the line label)
+# item key -> (report, section title regex, region regex). Rows look like
+#   "<Region> <Ask|Trade|Bid> [basis] [basis change] <price lo-hi | price> <change> <average> [year ago] <freight>"
 ITEMS = {
-    "sbo_crude_il":   ("roundup", r"(?:Crude )?Soybean Oil.*(?:Illinois|IL\b|Central)"),
-    "sbo_crude_ia":   ("roundup", r"(?:Crude )?Soybean Oil.*(?:Iowa|IA\b)"),
-    "tallow_bft":     ("roundup", r"(?:Bleachable|BFT|Packer Bleachable).*Tallow|Tallow.*Bleachable"),
-    "tallow_edible":  ("roundup", r"Edible Tallow|Tallow.*Edible"),
-    "cwg_rt":         ("roundup", r"Choice White Grease"),
-    "yg_rt":          ("roundup", r"Yellow Grease"),
-    "ethanol_ia":     ("roundup", r"Ethanol.*Iowa|Iowa.*Ethanol"),
-    "dco_ia":         ("ethanol", r"(?:Distillers Corn Oil|Corn Oil).*"),
-    "yg_mn":          ("byproduct", r"Yellow Grease.*(?:Minn|MN)"),
-    "yg_ca":          ("byproduct", r"Yellow Grease.*(?:San Joaquin|California|CA)"),
-    "cwg_central":    ("byproduct", r"Choice White Grease.*(?:Central|Trade)"),
+    "sbo_crude_il": ("processor", r"^Soybean Oil$", r"^Illinois\b"),
+    "sbo_crude_ia": ("processor", r"^Soybean Oil$", r"^Iowa\b"),
+    "dco_ia":       ("ethanol", r"^Distillers Corn Oil", r"^Iowa"),
+    "dco_il":       ("ethanol", r"^Distillers Corn Oil", r"^Illinois\b"),
+    "yg_mn":        ("byproduct", r"^Yellow Grease$", r"^Minnesota\b"),
+    "yg_ca":        ("byproduct", r"^Yellow Grease$", r"^CA-South\b"),
+    "cwg_mn":       ("byproduct", r"^Choice White Grease$", r"^Minnesota\b"),
+    "tallow_bft":   ("byproduct", r"^(?:Packer )?Bleachable(?: Fancy)? Tallow|^Tallow.*Bleachable", r"^(?:Central|Chicago|Minnesota|Texas)"),
+    "tallow_edible": ("byproduct", r"^Edible Tallow", r"^(?:Central|Chicago|Minnesota)"),
 }
+# Ag Energy Round-Up (2026 | 2025 | 5-yr columns; first value is this week, "unq" = unquoted): label line, then region line
+ROUNDUP = {"tallow_bft": (r"Bleachable Tallow|ble Tallow \(\$/cwt\)", r"^Chicago\b"),
+           "tallow_edible": (r"^Edible Tallow", r"^Chicago\b"),
+           "cwg_rt": (r"^Choice White Grease \(", r"^(?:Central U\.S\.|Minneapolis)\b"),
+           "yg_rt": (r"^Yellow Grease \(", r"^(?:Central U\.S\.|Minneapolis)\b")}
+SALE = re.compile(r"\b(Ask|Trade|Bid|Offer)\b")
 NUM = r"(\d{1,3}(?:\.\d{1,4})?)"
 
 
@@ -39,32 +44,71 @@ def pdf_text(b):
 
 
 def report_date(text):
-    m = re.search(r"(\d{1,2})/(\d{1,2})/(20\d{2})", text) or re.search(r"([A-Z][a-z]+ \d{1,2}, 20\d{2})", text)
-    if not m:
-        return str(dt.date.today())
-    if len(m.groups()) == 3:
-        return f"{m.group(3)}-{int(m.group(1)):02d}-{int(m.group(2)):02d}"
-    return dt.datetime.strptime(m.group(1).replace(",", ""), "%B %d %Y").date().isoformat()
-
-
-def first_price(line):
-    """Midpoint of the first 'lo-hi' range (or first number) after the label; ignores dates and basis like -100Z."""
-    body = re.sub(r"\d{1,2}/\d{1,2}/\d{2,4}", " ", line)
-    m = re.search(NUM + r"\s*-\s*" + NUM, body)
+    m = re.search(r"Report for \d{1,2}/\d{1,2}/20\d{2}\s*-\s*(\d{1,2})/(\d{1,2})/(20\d{2})", text) or re.search(r"(\d{1,2})/(\d{1,2})/(20\d{2})", text)
     if m:
-        lo, hi = float(m.group(1)), float(m.group(2))
-        if 0 < lo <= hi < 400:
-            return round((lo + hi) / 2, 3), f"{lo}-{hi}"
-    for x in re.findall(r"(?<![\w.-])" + NUM + r"(?![\w.])", body):
-        v = float(x)
-        if 5 < v < 400:
-            return v, x
-    return None, None
+        return f"{m.group(3)}-{int(m.group(1)):02d}-{int(m.group(2)):02d}"
+    m = re.search(r"([A-Z][a-z]+)\.? (\d{1,2}), (20\d{2})", text)
+    if m:
+        for f in ("%B %d %Y", "%b %d %Y"):
+            try:
+                return dt.datetime.strptime(f"{m.group(1)} {m.group(2)} {m.group(3)}", f).date().isoformat()
+            except ValueError:
+                pass
+    return str(dt.date.today())
+
+
+def row_price(line):
+    """Price from a region row: the first lo-hi range without a futures-month suffix (basis like 100.00Z is skipped);
+    else the first plain number after the sale type, skipping a basis change such as 'UNCH-DN 50.00'."""
+    m = SALE.search(line)
+    body = line[m.end():] if m else line
+    body = re.sub(r"-?\d[\d,]*\.\d+[A-Z](?:\s+to\s+-?\d[\d,]*\.\d+[A-Z])?", " ", body)   # basis
+    r = re.search(r"(?<![\d.])(\d[\d,]*\.\d+)\s*-\s*(\d[\d,]*\.\d+)(?![\d.A-Z])", body)
+    if r:
+        lo, hi = (float(x.replace(",", "")) for x in r.groups())
+        return round((lo + hi) / 2, 3), f"{lo}-{hi}"
+    body = re.sub(r"^\s*(?:UNCH|UP|DN)(?:-(?:UNCH|UP|DN))?\s+(?:\d+\.\d+(?:-(?:UP|DN)\s+\d+\.\d+)?)?", " ", body)
+    n = re.search(r"(?<![\w.])(\d[\d,]*\.\d+)(?![\w.])", body)
+    return (float(n.group(1).replace(",", "")), n.group(1)) if n else (None, None)
+
+
+def sections(text):
+    """Yield (section title, region row) for every priced row."""
+    cur = None
+    for line in (l.strip() for l in text.splitlines()):
+        if not line:
+            continue
+        if SALE.search(line) and cur:
+            yield cur, line
+        elif re.match(r"^(Region|State/Province|Ethanol Plant|Commodity)\b", line):
+            continue
+        else:
+            cur = line
+
+
+def roundup_rows(text):
+    out, lines = {}, [l.strip() for l in text.splitlines()]
+    for key, (lab, reg) in ROUNDUP.items():
+        for i, l in enumerate(lines):
+            if re.search(lab, l):
+                for l2 in lines[i + 1:i + 12]:
+                    if re.match(reg, l2):
+                        tok = re.sub(reg, "", l2).split()
+                        if tok and tok[0].lower() != "unq":
+                            r = re.match(r"(\d+\.\d+)-?$", tok[0])
+                            hi = tok[1] if len(tok) > 1 and re.match(r"\d+\.\d+$", tok[1]) and tok[0].endswith("-") else None
+                            if r:
+                                v = (float(r.group(1)) + float(hi)) / 2 if hi else float(r.group(1))
+                                out[key] = (round(v, 3), l2[:140])
+                        break
+                break
+    return out
 
 
 def main():
     state = read_json(OUT, {"rows": []}) or {"rows": []}
-    texts, got = {}, 0
+    texts = {}
+    got = 0
     for k, u in REPORTS.items():
         try:
             t = pdf_text(get(u, binary=True))
@@ -74,19 +118,24 @@ def main():
             print("AMS", k, e)
     if not texts:
         raise RuntimeError("no AMS report downloaded")
-    for key, (rep, pat) in ITEMS.items():
-        t = texts.get(rep)
-        if not t:
+    def add(key, v, raw, line, rep):
+        nonlocal got
+        row = {"date": report_date(texts[rep]), "item": key, "value": v, "raw": raw, "line": line[:140], "report": rep}
+        state["rows"] = [r for r in state["rows"] if not (r["date"] == row["date"] and r["item"] == key)] + [row]
+        got += 1
+    for key, (rep, sec, reg) in ITEMS.items():
+        if rep not in texts:
             continue
-        for line in t.splitlines():
-            if re.search(pat, line, flags=re.I):
-                v, raw = first_price(line)
-                if v is None:
-                    continue
-                row = {"date": report_date(t), "item": key, "value": v, "raw": raw, "line": line.strip()[:140], "report": rep}
-                state["rows"] = [r for r in state["rows"] if not (r["date"] == row["date"] and r["item"] == key)] + [row]
-                got += 1
-                break
+        for title, line in sections(texts[rep]):
+            if re.search(sec, title, flags=re.I) and re.search(reg, line):
+                v, raw = row_price(line)
+                if v is not None and 5 < v < 300:
+                    add(key, v, raw, line, rep)
+                    break
+    if "roundup" in texts:
+        for key, (v, line) in roundup_rows(texts["roundup"]).items():
+            if not any(r["item"] == key and r["date"] == report_date(texts["roundup"]) for r in state["rows"]):
+                add(key, v, str(v), line, "roundup")
     state["updated"] = str(dt.date.today())
     write_json(OUT, state)
     if not got:
