@@ -1,0 +1,1 @@
+{"t": "2026-11-25 04:32 UTC", "source": "lcfs_ca_weekly", "ok": false, "asof": null, "detail": "RuntimeError: https://ww2.arb.ca.gov/resources/documents/weekly-lcfs-credit-transfer-activity-reports -> HTTP 403"}
