@@ -1,40 +1,40 @@
 {
- "updated": "2026-11-25 04:28",
+ "updated": "2026-11-25 12:47",
  "prices": {
   "ZL": {
-   "close": 57.83,
-   "date": "2026-11-25",
+   "close": 58.32,
+   "date": "2026-11-24",
    "contract": "c1",
    "unit": "c/lb",
    "desc": "CBOT soybean oil",
-   "prev": 58.32,
+   "prev": 59.55,
    "stale": false
   },
   "ZS": {
-   "close": 1225.75,
-   "date": "2026-11-25",
+   "close": 1234.0,
+   "date": "2026-11-24",
    "contract": "c1",
    "unit": "c/bu",
    "desc": "CBOT soybeans",
-   "prev": 1234.0,
+   "prev": 1228.75,
    "stale": false
   },
   "ZM": {
-   "close": 350.4,
-   "date": "2026-11-25",
+   "close": 351.1,
+   "date": "2026-11-24",
    "contract": "c1",
    "unit": "$/st",
    "desc": "CBOT soybean meal",
-   "prev": 351.1,
+   "prev": 344.5,
    "stale": false
   },
   "ZC": {
-   "close": 434.25,
-   "date": "2026-11-25",
+   "close": 434.0,
+   "date": "2026-11-24",
    "contract": "c1",
    "unit": "c/bu",
    "desc": "CBOT corn",
-   "prev": 434.0,
+   "prev": 434.25,
    "stale": false
   },
   "OSF": {
@@ -47,30 +47,30 @@
    "stale": false
   },
   "HO": {
-   "close": 3.6146,
-   "date": "2026-11-25",
+   "close": 3.6588,
+   "date": "2026-11-24",
    "contract": "c1",
    "unit": "$/gal",
    "desc": "NYMEX NY Harbor ULSD",
-   "prev": 3.6588,
+   "prev": 3.6446,
    "stale": false
   },
   "RB": {
-   "close": 2.4072,
-   "date": "2026-11-25",
+   "close": 2.4406,
+   "date": "2026-11-24",
    "contract": "c1",
    "unit": "$/gal",
    "desc": "NYMEX RBOB gasoline",
-   "prev": 2.4406,
+   "prev": 2.3933,
    "stale": false
   },
   "CL": {
-   "close": 80.78,
-   "date": "2026-11-25",
+   "close": 82.05,
+   "date": "2026-11-24",
    "contract": "c1",
    "unit": "$/bbl",
    "desc": "NYMEX WTI crude",
-   "prev": 82.05,
+   "prev": 80.17,
    "stale": false
   },
   "CU": {
@@ -128,7 +128,7 @@
    "stale": false
   },
   "FCPO": {
-   "close": 4245.0,
+   "close": 4229.0,
    "date": "2026-11-24",
    "contract": "c1",
    "unit": "MYR/t",
@@ -138,7 +138,7 @@
   },
   "FUCO": {
    "close": 903.5,
-   "date": "2026-11-23",
+   "date": "2026-11-24",
    "contract": "c1",
    "unit": "$/t",
    "desc": "Bursa used cooking oil",
@@ -146,12 +146,12 @@
    "stale": false
   },
   "RS": {
-   "close": 768.9,
-   "date": "2026-11-25",
+   "close": 771.7,
+   "date": "2026-11-24",
    "contract": "c1",
    "unit": "CAD/t",
    "desc": "ICE canola",
-   "prev": 771.7,
+   "prev": 775.3,
    "stale": false
   },
   "ECO": {
@@ -164,12 +164,12 @@
    "stale": false
   },
   "ULS": {
-   "close": 1109.0,
-   "date": "2026-11-25",
+   "close": 1101.75,
+   "date": "2026-11-24",
    "contract": "c1",
    "unit": "$/t",
    "desc": "ICE low sulphur gasoil",
-   "prev": 1101.75,
+   "prev": 1121.25,
    "stale": false
   },
   "FBD": {
@@ -200,21 +200,21 @@
    "stale": true
   },
   "USDMYR": {
-   "close": 4.114,
+   "close": 4.119,
    "date": "2026-11-25",
    "unit": "fx",
    "desc": "USDMYR",
    "stale": false
   },
   "USDCAD": {
-   "close": 1.42713,
+   "close": 1.42596,
    "date": "2026-11-25",
    "unit": "fx",
    "desc": "USDCAD",
    "stale": false
   },
   "EURUSD": {
-   "close": 1.09464,
+   "close": 1.09484,
    "date": "2026-11-25",
    "unit": "fx",
    "desc": "EURUSD",
