@@ -1,0 +1,12 @@
+{"t": "2026-11-25 04:27 UTC", "source": "epa_emts", "ok": true, "asof": "2026-10", "detail": ""}
+{"t": "2026-11-25 04:27 UTC", "source": "lcfs_ca_monthly", "ok": true, "asof": "2026-08", "detail": ""}
+{"t": "2026-11-25 04:27 UTC", "source": "lcfs_ca_weekly", "ok": true, "asof": "2026-11-25", "detail": ""}
+{"t": "2026-11-25 04:27 UTC", "source": "lcfs_oregon", "ok": true, "asof": "2723-01", "detail": ""}
+{"t": "2026-11-25 04:27 UTC", "source": "lcfs_washington", "ok": true, "asof": "1157-01", "detail": ""}
+{"t": "2026-11-25 04:27 UTC", "source": "eia_feedstocks", "ok": true, "asof": "2026-08", "detail": ""}
+{"t": "2026-11-25 04:27 UTC", "source": "eia_capacity", "ok": true, "asof": "2026-08", "detail": ""}
+{"t": "2026-11-25 04:27 UTC", "source": "eia_mer", "ok": true, "asof": "2026-08", "detail": ""}
+{"t": "2026-11-25 04:27 UTC", "source": "eia_spot", "ok": true, "asof": "2026-11-17", "detail": ""}
+{"t": "2026-11-25 04:27 UTC", "source": "wasde", "ok": true, "asof": "2026-11", "detail": ""}
+{"t": "2026-11-25 04:27 UTC", "source": "psd", "ok": true, "asof": "2026", "detail": ""}
+{"t": "2026-11-25 04:27 UTC", "source": "model_economics", "ok": false, "asof": null, "detail": "RuntimeError: no prices"}

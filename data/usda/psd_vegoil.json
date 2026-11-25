@@ -1,0 +1,3863 @@
+{
+ "unit": "1000 t",
+ "data": {
+  "Palm oil": {
+   "Brazil": {
+    "2015": {
+     "Domestic Consumption": 570.0,
+     "Ending Stocks": 51.0,
+     "Exports": 46.0,
+     "Food Use Dom. Cons.": 110.0,
+     "Imports": 237.0,
+     "Industrial Dom. Cons.": 460.0,
+     "Production": 415.0
+    },
+    "2016": {
+     "Domestic Consumption": 620.0,
+     "Ending Stocks": 15.0,
+     "Exports": 90.0,
+     "Food Use Dom. Cons.": 110.0,
+     "Imports": 189.0,
+     "Industrial Dom. Cons.": 510.0,
+     "Production": 485.0
+    },
+    "2017": {
+     "Domestic Consumption": 640.0,
+     "Ending Stocks": 58.0,
+     "Exports": 31.0,
+     "Food Use Dom. Cons.": 120.0,
+     "Imports": 214.0,
+     "Industrial Dom. Cons.": 520.0,
+     "Production": 500.0
+    },
+    "2018": {
+     "Domestic Consumption": 680.0,
+     "Ending Stocks": 29.0,
+     "Exports": 17.0,
+     "Food Use Dom. Cons.": 120.0,
+     "Imports": 143.0,
+     "Industrial Dom. Cons.": 560.0,
+     "Production": 525.0
+    },
+    "2019": {
+     "Domestic Consumption": 758.0,
+     "Ending Stocks": 38.0,
+     "Exports": 17.0,
+     "Food Use Dom. Cons.": 125.0,
+     "Imports": 244.0,
+     "Industrial Dom. Cons.": 633.0,
+     "Production": 540.0
+    },
+    "2020": {
+     "Domestic Consumption": 870.0,
+     "Ending Stocks": 65.0,
+     "Exports": 13.0,
+     "Food Use Dom. Cons.": 150.0,
+     "Imports": 365.0,
+     "Industrial Dom. Cons.": 720.0,
+     "Production": 545.0
+    },
+    "2021": {
+     "Domestic Consumption": 840.0,
+     "Ending Stocks": 35.0,
+     "Exports": 18.0,
+     "Food Use Dom. Cons.": 140.0,
+     "Imports": 278.0,
+     "Industrial Dom. Cons.": 700.0,
+     "Production": 550.0
+    },
+    "2022": {
+     "Domestic Consumption": 825.0,
+     "Ending Stocks": 27.0,
+     "Exports": 14.0,
+     "Food Use Dom. Cons.": 150.0,
+     "Imports": 261.0,
+     "Industrial Dom. Cons.": 675.0,
+     "Production": 570.0
+    },
+    "2023": {
+     "Domestic Consumption": 920.0,
+     "Ending Stocks": 39.0,
+     "Exports": 9.0,
+     "Food Use Dom. Cons.": 170.0,
+     "Imports": 356.0,
+     "Industrial Dom. Cons.": 750.0,
+     "Production": 585.0
+    },
+    "2024": {
+     "Domestic Consumption": 950.0,
+     "Ending Stocks": 38.0,
+     "Exports": 6.0,
+     "Food Use Dom. Cons.": 185.0,
+     "Imports": 355.0,
+     "Industrial Dom. Cons.": 765.0,
+     "Production": 600.0
+    },
+    "2025": {
+     "Domestic Consumption": 1000.0,
+     "Ending Stocks": 48.0,
+     "Exports": 10.0,
+     "Food Use Dom. Cons.": 200.0,
+     "Imports": 360.0,
+     "Industrial Dom. Cons.": 800.0,
+     "Production": 660.0
+    },
+    "2026": {
+     "Domestic Consumption": 1050.0,
+     "Ending Stocks": 48.0,
+     "Exports": 10.0,
+     "Food Use Dom. Cons.": 200.0,
+     "Imports": 370.0,
+     "Industrial Dom. Cons.": 850.0,
+     "Production": 690.0
+    }
+   },
+   "Canada": {
+    "2015": {
+     "Domestic Consumption": 95.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 95.0,
+     "Imports": 95.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2016": {
+     "Domestic Consumption": 101.0,
+     "Ending Stocks": 0.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 101.0,
+     "Imports": 102.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2017": {
+     "Domestic Consumption": 104.0,
+     "Ending Stocks": 0.0,
+     "Exports": 5.0,
+     "Food Use Dom. Cons.": 104.0,
+     "Imports": 109.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2018": {
+     "Domestic Consumption": 108.0,
+     "Ending Stocks": 0.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 108.0,
+     "Imports": 111.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2019": {
+     "Domestic Consumption": 102.0,
+     "Ending Stocks": 0.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 102.0,
+     "Imports": 105.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2020": {
+     "Domestic Consumption": 101.0,
+     "Ending Stocks": 0.0,
+     "Exports": 2.0,
+     "Food Use Dom. Cons.": 101.0,
+     "Imports": 103.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2021": {
+     "Domestic Consumption": 111.0,
+     "Ending Stocks": 0.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 111.0,
+     "Imports": 112.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2022": {
+     "Domestic Consumption": 110.0,
+     "Ending Stocks": 0.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 110.0,
+     "Imports": 111.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2023": {
+     "Domestic Consumption": 113.0,
+     "Ending Stocks": 0.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 113.0,
+     "Imports": 114.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2024": {
+     "Domestic Consumption": 110.0,
+     "Ending Stocks": 0.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 110.0,
+     "Imports": 113.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2025": {
+     "Domestic Consumption": 103.0,
+     "Ending Stocks": 0.0,
+     "Exports": 2.0,
+     "Food Use Dom. Cons.": 103.0,
+     "Imports": 105.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2026": {
+     "Domestic Consumption": 104.0,
+     "Ending Stocks": 0.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 104.0,
+     "Imports": 105.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    }
+   },
+   "China": {
+    "2015": {
+     "Domestic Consumption": 4800.0,
+     "Ending Stocks": 189.0,
+     "Exports": 5.0,
+     "Food Use Dom. Cons.": 2700.0,
+     "Imports": 4689.0,
+     "Industrial Dom. Cons.": 2100.0,
+     "Production": 0.0
+    },
+    "2016": {
+     "Domestic Consumption": 4750.0,
+     "Ending Stocks": 307.0,
+     "Exports": 13.0,
+     "Food Use Dom. Cons.": 2650.0,
+     "Imports": 4881.0,
+     "Industrial Dom. Cons.": 2100.0,
+     "Production": 0.0
+    },
+    "2017": {
+     "Domestic Consumption": 5100.0,
+     "Ending Stocks": 495.0,
+     "Exports": 32.0,
+     "Food Use Dom. Cons.": 2900.0,
+     "Imports": 5320.0,
+     "Industrial Dom. Cons.": 2200.0,
+     "Production": 0.0
+    },
+    "2018": {
+     "Domestic Consumption": 6850.0,
+     "Ending Stocks": 409.0,
+     "Exports": 31.0,
+     "Food Use Dom. Cons.": 4500.0,
+     "Imports": 6795.0,
+     "Industrial Dom. Cons.": 2350.0,
+     "Production": 0.0
+    },
+    "2019": {
+     "Domestic Consumption": 6200.0,
+     "Ending Stocks": 895.0,
+     "Exports": 33.0,
+     "Food Use Dom. Cons.": 3800.0,
+     "Imports": 6719.0,
+     "Industrial Dom. Cons.": 2400.0,
+     "Production": 0.0
+    },
+    "2020": {
+     "Domestic Consumption": 6550.0,
+     "Ending Stocks": 1149.0,
+     "Exports": 14.0,
+     "Food Use Dom. Cons.": 4200.0,
+     "Imports": 6818.0,
+     "Industrial Dom. Cons.": 2350.0,
+     "Production": 0.0
+    },
+    "2021": {
+     "Domestic Consumption": 5100.0,
+     "Ending Stocks": 420.0,
+     "Exports": 16.0,
+     "Food Use Dom. Cons.": 3300.0,
+     "Imports": 4387.0,
+     "Industrial Dom. Cons.": 1800.0,
+     "Production": 0.0
+    },
+    "2022": {
+     "Domestic Consumption": 5400.0,
+     "Ending Stocks": 1181.0,
+     "Exports": 29.0,
+     "Food Use Dom. Cons.": 3100.0,
+     "Imports": 6190.0,
+     "Industrial Dom. Cons.": 2300.0,
+     "Production": 0.0
+    },
+    "2023": {
+     "Domestic Consumption": 5000.0,
+     "Ending Stocks": 546.0,
+     "Exports": 12.0,
+     "Food Use Dom. Cons.": 2800.0,
+     "Imports": 4377.0,
+     "Industrial Dom. Cons.": 2200.0,
+     "Production": 0.0
+    },
+    "2024": {
+     "Domestic Consumption": 3300.0,
+     "Ending Stocks": 439.0,
+     "Exports": 10.0,
+     "Food Use Dom. Cons.": 1800.0,
+     "Imports": 3203.0,
+     "Industrial Dom. Cons.": 1500.0,
+     "Production": 0.0
+    },
+    "2025": {
+     "Domestic Consumption": 3775.0,
+     "Ending Stocks": 407.0,
+     "Exports": 8.0,
+     "Food Use Dom. Cons.": 2375.0,
+     "Imports": 3751.0,
+     "Industrial Dom. Cons.": 1400.0,
+     "Production": 0.0
+    },
+    "2026": {
+     "Domestic Consumption": 3675.0,
+     "Ending Stocks": 412.0,
+     "Exports": 20.0,
+     "Food Use Dom. Cons.": 2275.0,
+     "Imports": 3700.0,
+     "Industrial Dom. Cons.": 1400.0,
+     "Production": 0.0
+    }
+   },
+   "European Union": {
+    "2015": {
+     "Domestic Consumption": 6700.0,
+     "Ending Stocks": 425.0,
+     "Exports": 148.0,
+     "Food Use Dom. Cons.": 3100.0,
+     "Imports": 6717.0,
+     "Industrial Dom. Cons.": 3400.0,
+     "Production": 0.0
+    },
+    "2016": {
+     "Domestic Consumption": 6515.0,
+     "Ending Stocks": 498.0,
+     "Exports": 259.0,
+     "Food Use Dom. Cons.": 2615.0,
+     "Imports": 6964.0,
+     "Industrial Dom. Cons.": 3700.0,
+     "Production": 0.0
+    },
+    "2017": {
+     "Domestic Consumption": 6575.0,
+     "Ending Stocks": 496.0,
+     "Exports": 261.0,
+     "Food Use Dom. Cons.": 2575.0,
+     "Imports": 6834.0,
+     "Industrial Dom. Cons.": 3800.0,
+     "Production": 0.0
+    },
+    "2018": {
+     "Domestic Consumption": 6600.0,
+     "Ending Stocks": 752.0,
+     "Exports": 214.0,
+     "Food Use Dom. Cons.": 2400.0,
+     "Imports": 7070.0,
+     "Industrial Dom. Cons.": 4000.0,
+     "Production": 0.0
+    },
+    "2019": {
+     "Domestic Consumption": 6575.0,
+     "Ending Stocks": 1137.0,
+     "Exports": 152.0,
+     "Food Use Dom. Cons.": 2350.0,
+     "Imports": 7112.0,
+     "Industrial Dom. Cons.": 4025.0,
+     "Production": 0.0
+    },
+    "2020": {
+     "Domestic Consumption": 6360.0,
+     "Ending Stocks": 568.0,
+     "Exports": 160.0,
+     "Food Use Dom. Cons.": 2300.0,
+     "Imports": 5951.0,
+     "Industrial Dom. Cons.": 3860.0,
+     "Production": 0.0
+    },
+    "2021": {
+     "Domestic Consumption": 5000.0,
+     "Ending Stocks": 609.0,
+     "Exports": 160.0,
+     "Food Use Dom. Cons.": 2000.0,
+     "Imports": 5201.0,
+     "Industrial Dom. Cons.": 2800.0,
+     "Production": 0.0
+    },
+    "2022": {
+     "Domestic Consumption": 4500.0,
+     "Ending Stocks": 557.0,
+     "Exports": 128.0,
+     "Food Use Dom. Cons.": 2150.0,
+     "Imports": 4576.0,
+     "Industrial Dom. Cons.": 2200.0,
+     "Production": 0.0
+    },
+    "2023": {
+     "Domestic Consumption": 3890.0,
+     "Ending Stocks": 540.0,
+     "Exports": 140.0,
+     "Food Use Dom. Cons.": 1880.0,
+     "Imports": 4013.0,
+     "Industrial Dom. Cons.": 1850.0,
+     "Production": 0.0
+    },
+    "2024": {
+     "Domestic Consumption": 3200.0,
+     "Ending Stocks": 378.0,
+     "Exports": 102.0,
+     "Food Use Dom. Cons.": 1800.0,
+     "Imports": 3140.0,
+     "Industrial Dom. Cons.": 1300.0,
+     "Production": 0.0
+    },
+    "2025": {
+     "Domestic Consumption": 3100.0,
+     "Ending Stocks": 358.0,
+     "Exports": 120.0,
+     "Food Use Dom. Cons.": 1700.0,
+     "Imports": 3200.0,
+     "Industrial Dom. Cons.": 1300.0,
+     "Production": 0.0
+    },
+    "2026": {
+     "Domestic Consumption": 3000.0,
+     "Ending Stocks": 338.0,
+     "Exports": 120.0,
+     "Food Use Dom. Cons.": 1600.0,
+     "Imports": 3100.0,
+     "Industrial Dom. Cons.": 1300.0,
+     "Production": 0.0
+    }
+   },
+   "India": {
+    "2015": {
+     "Domestic Consumption": 8997.0,
+     "Ending Stocks": 660.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 8500.0,
+     "Imports": 8857.0,
+     "Industrial Dom. Cons.": 497.0,
+     "Production": 219.0
+    },
+    "2016": {
+     "Domestic Consumption": 9060.0,
+     "Ending Stocks": 1151.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 8360.0,
+     "Imports": 9341.0,
+     "Industrial Dom. Cons.": 700.0,
+     "Production": 210.0
+    },
+    "2017": {
+     "Domestic Consumption": 8750.0,
+     "Ending Stocks": 1280.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 8080.0,
+     "Imports": 8608.0,
+     "Industrial Dom. Cons.": 670.0,
+     "Production": 271.0
+    },
+    "2018": {
+     "Domestic Consumption": 9085.0,
+     "Ending Stocks": 2184.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 8310.0,
+     "Imports": 9710.0,
+     "Industrial Dom. Cons.": 775.0,
+     "Production": 279.0
+    },
+    "2019": {
+     "Domestic Consumption": 8450.0,
+     "Ending Stocks": 1386.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 8050.0,
+     "Imports": 7398.0,
+     "Industrial Dom. Cons.": 400.0,
+     "Production": 255.0
+    },
+    "2020": {
+     "Domestic Consumption": 9225.0,
+     "Ending Stocks": 843.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 8850.0,
+     "Imports": 8411.0,
+     "Industrial Dom. Cons.": 375.0,
+     "Production": 272.0
+    },
+    "2021": {
+     "Domestic Consumption": 8150.0,
+     "Ending Stocks": 972.0,
+     "Exports": 16.0,
+     "Food Use Dom. Cons.": 7800.0,
+     "Imports": 8004.0,
+     "Industrial Dom. Cons.": 350.0,
+     "Production": 291.0
+    },
+    "2022": {
+     "Domestic Consumption": 8900.0,
+     "Ending Stocks": 2419.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 8300.0,
+     "Imports": 10045.0,
+     "Industrial Dom. Cons.": 600.0,
+     "Production": 305.0
+    },
+    "2023": {
+     "Domestic Consumption": 8990.0,
+     "Ending Stocks": 2615.0,
+     "Exports": 5.0,
+     "Food Use Dom. Cons.": 8340.0,
+     "Imports": 8886.0,
+     "Industrial Dom. Cons.": 650.0,
+     "Production": 305.0
+    },
+    "2024": {
+     "Domestic Consumption": 8800.0,
+     "Ending Stocks": 1898.0,
+     "Exports": 8.0,
+     "Food Use Dom. Cons.": 8150.0,
+     "Imports": 7786.0,
+     "Industrial Dom. Cons.": 650.0,
+     "Production": 305.0
+    },
+    "2025": {
+     "Domestic Consumption": 8350.0,
+     "Ending Stocks": 1888.0,
+     "Exports": 65.0,
+     "Food Use Dom. Cons.": 7750.0,
+     "Imports": 8100.0,
+     "Industrial Dom. Cons.": 600.0,
+     "Production": 305.0
+    },
+    "2026": {
+     "Domestic Consumption": 8800.0,
+     "Ending Stocks": 1743.0,
+     "Exports": 50.0,
+     "Food Use Dom. Cons.": 8150.0,
+     "Imports": 8400.0,
+     "Industrial Dom. Cons.": 650.0,
+     "Production": 305.0
+    }
+   },
+   "Indonesia": {
+    "2015": {
+     "Domestic Consumption": 9120.0,
+     "Ending Stocks": 2863.0,
+     "Exports": 22906.0,
+     "Food Use Dom. Cons.": 5170.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 3700.0,
+     "Production": 32000.0
+    },
+    "2016": {
+     "Domestic Consumption": 9125.0,
+     "Ending Stocks": 2110.0,
+     "Exports": 27633.0,
+     "Food Use Dom. Cons.": 5370.0,
+     "Imports": 5.0,
+     "Industrial Dom. Cons.": 3500.0,
+     "Production": 36000.0
+    },
+    "2017": {
+     "Domestic Consumption": 11555.0,
+     "Ending Stocks": 3089.0,
+     "Exports": 26967.0,
+     "Food Use Dom. Cons.": 5570.0,
+     "Imports": 1.0,
+     "Industrial Dom. Cons.": 5725.0,
+     "Production": 39500.0
+    },
+    "2018": {
+     "Domestic Consumption": 13485.0,
+     "Ending Stocks": 2909.0,
+     "Exports": 28279.0,
+     "Food Use Dom. Cons.": 5770.0,
+     "Imports": 84.0,
+     "Industrial Dom. Cons.": 7450.0,
+     "Production": 41500.0
+    },
+    "2019": {
+     "Domestic Consumption": 14595.0,
+     "Ending Stocks": 4576.0,
+     "Exports": 26249.0,
+     "Food Use Dom. Cons.": 6020.0,
+     "Imports": 11.0,
+     "Industrial Dom. Cons.": 8300.0,
+     "Production": 42500.0
+    },
+    "2020": {
+     "Domestic Consumption": 15700.0,
+     "Ending Stocks": 5055.0,
+     "Exports": 27321.0,
+     "Food Use Dom. Cons.": 6225.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 9200.0,
+     "Production": 43500.0
+    },
+    "2021": {
+     "Domestic Consumption": 17425.0,
+     "Ending Stocks": 7309.0,
+     "Exports": 22321.0,
+     "Food Use Dom. Cons.": 6650.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 10500.0,
+     "Production": 42000.0
+    },
+    "2022": {
+     "Domestic Consumption": 19125.0,
+     "Ending Stocks": 5108.0,
+     "Exports": 28077.0,
+     "Food Use Dom. Cons.": 6950.0,
+     "Imports": 1.0,
+     "Industrial Dom. Cons.": 11900.0,
+     "Production": 45000.0
+    },
+    "2023": {
+     "Domestic Consumption": 21075.0,
+     "Ending Stocks": 4761.0,
+     "Exports": 22273.0,
+     "Food Use Dom. Cons.": 7300.0,
+     "Imports": 1.0,
+     "Industrial Dom. Cons.": 13500.0,
+     "Production": 43000.0
+    },
+    "2024": {
+     "Domestic Consumption": 22375.0,
+     "Ending Stocks": 4416.0,
+     "Exports": 23471.0,
+     "Food Use Dom. Cons.": 7400.0,
+     "Imports": 1.0,
+     "Industrial Dom. Cons.": 14700.0,
+     "Production": 45500.0
+    },
+    "2025": {
+     "Domestic Consumption": 22825.0,
+     "Ending Stocks": 3560.0,
+     "Exports": 25031.0,
+     "Food Use Dom. Cons.": 7450.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 15100.0,
+     "Production": 47000.0
+    },
+    "2026": {
+     "Domestic Consumption": 23375.0,
+     "Ending Stocks": 3585.0,
+     "Exports": 21600.0,
+     "Food Use Dom. Cons.": 7500.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 15600.0,
+     "Production": 45000.0
+    }
+   },
+   "Malaysia": {
+    "2015": {
+     "Domestic Consumption": 2795.0,
+     "Ending Stocks": 1408.0,
+     "Exports": 16667.0,
+     "Food Use Dom. Cons.": 650.0,
+     "Imports": 559.0,
+     "Industrial Dom. Cons.": 2033.0,
+     "Production": 17700.0
+    },
+    "2016": {
+     "Domestic Consumption": 2622.0,
+     "Ending Stocks": 1964.0,
+     "Exports": 16313.0,
+     "Food Use Dom. Cons.": 670.0,
+     "Imports": 633.0,
+     "Industrial Dom. Cons.": 1885.0,
+     "Production": 18858.0
+    },
+    "2017": {
+     "Domestic Consumption": 3238.0,
+     "Ending Stocks": 2477.0,
+     "Exports": 16472.0,
+     "Food Use Dom. Cons.": 700.0,
+     "Imports": 540.0,
+     "Industrial Dom. Cons.": 2465.0,
+     "Production": 19683.0
+    },
+    "2018": {
+     "Domestic Consumption": 3522.0,
+     "Ending Stocks": 2448.0,
+     "Exports": 18362.0,
+     "Food Use Dom. Cons.": 737.0,
+     "Imports": 1055.0,
+     "Industrial Dom. Cons.": 2715.0,
+     "Production": 20800.0
+    },
+    "2019": {
+     "Domestic Consumption": 3559.0,
+     "Ending Stocks": 1722.0,
+     "Exports": 17212.0,
+     "Food Use Dom. Cons.": 766.0,
+     "Imports": 790.0,
+     "Industrial Dom. Cons.": 2720.0,
+     "Production": 19255.0
+    },
+    "2020": {
+     "Domestic Consumption": 3242.0,
+     "Ending Stocks": 1756.0,
+     "Exports": 15878.0,
+     "Food Use Dom. Cons.": 770.0,
+     "Imports": 1300.0,
+     "Industrial Dom. Cons.": 2402.0,
+     "Production": 17854.0
+    },
+    "2021": {
+     "Domestic Consumption": 3300.0,
+     "Ending Stocks": 2318.0,
+     "Exports": 15527.0,
+     "Food Use Dom. Cons.": 810.0,
+     "Imports": 1237.0,
+     "Industrial Dom. Cons.": 2423.0,
+     "Production": 18152.0
+    },
+    "2022": {
+     "Domestic Consumption": 3975.0,
+     "Ending Stocks": 2312.0,
+     "Exports": 15355.0,
+     "Food Use Dom. Cons.": 855.0,
+     "Imports": 935.0,
+     "Industrial Dom. Cons.": 3000.0,
+     "Production": 18389.0
+    },
+    "2023": {
+     "Domestic Consumption": 3667.0,
+     "Ending Stocks": 2014.0,
+     "Exports": 16530.0,
+     "Food Use Dom. Cons.": 865.0,
+     "Imports": 189.0,
+     "Industrial Dom. Cons.": 2725.0,
+     "Production": 19710.0
+    },
+    "2024": {
+     "Domestic Consumption": 4165.0,
+     "Ending Stocks": 2360.0,
+     "Exports": 15617.0,
+     "Food Use Dom. Cons.": 940.0,
+     "Imports": 748.0,
+     "Industrial Dom. Cons.": 3100.0,
+     "Production": 19380.0
+    },
+    "2025": {
+     "Domestic Consumption": 4550.0,
+     "Ending Stocks": 3311.0,
+     "Exports": 15709.0,
+     "Food Use Dom. Cons.": 970.0,
+     "Imports": 652.0,
+     "Industrial Dom. Cons.": 3450.0,
+     "Production": 20558.0
+    },
+    "2026": {
+     "Domestic Consumption": 4610.0,
+     "Ending Stocks": 2501.0,
+     "Exports": 16200.0,
+     "Food Use Dom. Cons.": 980.0,
+     "Imports": 400.0,
+     "Industrial Dom. Cons.": 3500.0,
+     "Production": 19600.0
+    }
+   },
+   "United States": {
+    "2015": {
+     "Domestic Consumption": 1269.0,
+     "Ending Stocks": 189.0,
+     "Exports": 14.0,
+     "Food Use Dom. Cons.": 994.0,
+     "Imports": 1307.0,
+     "Industrial Dom. Cons.": 275.0,
+     "Production": 0.0
+    },
+    "2016": {
+     "Domestic Consumption": 1355.0,
+     "Ending Stocks": 184.0,
+     "Exports": 17.0,
+     "Food Use Dom. Cons.": 1080.0,
+     "Imports": 1367.0,
+     "Industrial Dom. Cons.": 275.0,
+     "Production": 0.0
+    },
+    "2017": {
+     "Domestic Consumption": 1563.0,
+     "Ending Stocks": 132.0,
+     "Exports": 16.0,
+     "Food Use Dom. Cons.": 1288.0,
+     "Imports": 1527.0,
+     "Industrial Dom. Cons.": 275.0,
+     "Production": 0.0
+    },
+    "2018": {
+     "Domestic Consumption": 1496.0,
+     "Ending Stocks": 156.0,
+     "Exports": 6.0,
+     "Food Use Dom. Cons.": 1221.0,
+     "Imports": 1526.0,
+     "Industrial Dom. Cons.": 275.0,
+     "Production": 0.0
+    },
+    "2019": {
+     "Domestic Consumption": 1483.0,
+     "Ending Stocks": 171.0,
+     "Exports": 5.0,
+     "Food Use Dom. Cons.": 1208.0,
+     "Imports": 1503.0,
+     "Industrial Dom. Cons.": 275.0,
+     "Production": 0.0
+    },
+    "2020": {
+     "Domestic Consumption": 1598.0,
+     "Ending Stocks": 142.0,
+     "Exports": 7.0,
+     "Food Use Dom. Cons.": 1323.0,
+     "Imports": 1576.0,
+     "Industrial Dom. Cons.": 275.0,
+     "Production": 0.0
+    },
+    "2021": {
+     "Domestic Consumption": 1561.0,
+     "Ending Stocks": 160.0,
+     "Exports": 9.0,
+     "Food Use Dom. Cons.": 1286.0,
+     "Imports": 1588.0,
+     "Industrial Dom. Cons.": 275.0,
+     "Production": 0.0
+    },
+    "2022": {
+     "Domestic Consumption": 1875.0,
+     "Ending Stocks": 161.0,
+     "Exports": 11.0,
+     "Food Use Dom. Cons.": 1600.0,
+     "Imports": 1887.0,
+     "Industrial Dom. Cons.": 275.0,
+     "Production": 0.0
+    },
+    "2023": {
+     "Domestic Consumption": 1894.0,
+     "Ending Stocks": 116.0,
+     "Exports": 15.0,
+     "Food Use Dom. Cons.": 1619.0,
+     "Imports": 1864.0,
+     "Industrial Dom. Cons.": 275.0,
+     "Production": 0.0
+    },
+    "2024": {
+     "Domestic Consumption": 1526.0,
+     "Ending Stocks": 120.0,
+     "Exports": 12.0,
+     "Food Use Dom. Cons.": 1251.0,
+     "Imports": 1542.0,
+     "Industrial Dom. Cons.": 275.0,
+     "Production": 0.0
+    },
+    "2025": {
+     "Domestic Consumption": 1526.0,
+     "Ending Stocks": 99.0,
+     "Exports": 16.0,
+     "Food Use Dom. Cons.": 1251.0,
+     "Imports": 1521.0,
+     "Industrial Dom. Cons.": 275.0,
+     "Production": 0.0
+    },
+    "2026": {
+     "Domestic Consumption": 1671.0,
+     "Ending Stocks": 113.0,
+     "Exports": 15.0,
+     "Food Use Dom. Cons.": 1396.0,
+     "Imports": 1700.0,
+     "Industrial Dom. Cons.": 275.0,
+     "Production": 0.0
+    }
+   },
+   "World": {
+    "2015": {
+     "Domestic Consumption": 59272.0,
+     "Ending Stocks": 8703.0,
+     "Exports": 43750.0,
+     "Food Use Dom. Cons.": 42163.0,
+     "Imports": 42102.0,
+     "Industrial Dom. Cons.": 16411.0,
+     "Production": 58751.0
+    },
+    "2016": {
+     "Domestic Consumption": 60714.0,
+     "Ending Stocks": 10462.0,
+     "Exports": 48944.0,
+     "Food Use Dom. Cons.": 43321.0,
+     "Imports": 45901.0,
+     "Industrial Dom. Cons.": 16725.0,
+     "Production": 65566.0
+    },
+    "2017": {
+     "Domestic Consumption": 65572.0,
+     "Ending Stocks": 13027.0,
+     "Exports": 48730.0,
+     "Food Use Dom. Cons.": 45007.0,
+     "Imports": 46278.0,
+     "Industrial Dom. Cons.": 19879.0,
+     "Production": 70589.0
+    },
+    "2018": {
+     "Domestic Consumption": 70988.0,
+     "Ending Stocks": 14846.0,
+     "Exports": 51545.0,
+     "Food Use Dom. Cons.": 47501.0,
+     "Imports": 50193.0,
+     "Industrial Dom. Cons.": 22795.0,
+     "Production": 74159.0
+    },
+    "2019": {
+     "Domestic Consumption": 71081.0,
+     "Ending Stocks": 15904.0,
+     "Exports": 48358.0,
+     "Food Use Dom. Cons.": 47197.0,
+     "Imports": 47130.0,
+     "Industrial Dom. Cons.": 23179.0,
+     "Production": 73367.0
+    },
+    "2020": {
+     "Domestic Consumption": 72617.0,
+     "Ending Stocks": 15161.0,
+     "Exports": 48553.0,
+     "Food Use Dom. Cons.": 48373.0,
+     "Imports": 46769.0,
+     "Industrial Dom. Cons.": 23594.0,
+     "Production": 73658.0
+    },
+    "2021": {
+     "Domestic Consumption": 69713.0,
+     "Ending Stocks": 16807.0,
+     "Exports": 43878.0,
+     "Food Use Dom. Cons.": 46075.0,
+     "Imports": 41915.0,
+     "Industrial Dom. Cons.": 22984.0,
+     "Production": 73322.0
+    },
+    "2022": {
+     "Domestic Consumption": 73861.0,
+     "Ending Stocks": 17010.0,
+     "Exports": 49367.0,
+     "Food Use Dom. Cons.": 47894.0,
+     "Imports": 46650.0,
+     "Industrial Dom. Cons.": 25305.0,
+     "Production": 76781.0
+    },
+    "2023": {
+     "Domestic Consumption": 75119.0,
+     "Ending Stocks": 15904.0,
+     "Exports": 44410.0,
+     "Food Use Dom. Cons.": 48127.0,
+     "Imports": 42364.0,
+     "Industrial Dom. Cons.": 26363.0,
+     "Production": 76059.0
+    },
+    "2024": {
+     "Domestic Consumption": 76243.0,
+     "Ending Stocks": 14941.0,
+     "Exports": 45018.0,
+     "Food Use Dom. Cons.": 48512.0,
+     "Imports": 41384.0,
+     "Industrial Dom. Cons.": 26738.0,
+     "Production": 78914.0
+    },
+    "2025": {
+     "Domestic Consumption": 77224.0,
+     "Ending Stocks": 15205.0,
+     "Exports": 46756.0,
+     "Food Use Dom. Cons.": 48876.0,
+     "Imports": 42144.0,
+     "Industrial Dom. Cons.": 27558.0,
+     "Production": 82100.0
+    },
+    "2026": {
+     "Domestic Consumption": 78011.0,
+     "Ending Stocks": 13771.0,
+     "Exports": 43747.0,
+     "Food Use Dom. Cons.": 49141.0,
+     "Imports": 41403.0,
+     "Industrial Dom. Cons.": 28255.0,
+     "Production": 78921.0
+    }
+   }
+  },
+  "Rapeseed oil": {
+   "Argentina": {
+    "2015": {
+     "Domestic Consumption": 3.0,
+     "Ending Stocks": 0.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 3.0,
+     "Imports": 3.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 1.0
+    },
+    "2016": {
+     "Domestic Consumption": 3.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 3.0,
+     "Imports": 3.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2017": {
+     "Domestic Consumption": 3.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 3.0,
+     "Imports": 3.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2018": {
+     "Domestic Consumption": 3.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 3.0,
+     "Imports": 3.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2019": {
+     "Domestic Consumption": 2.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 2.0,
+     "Imports": 2.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2020": {
+     "Domestic Consumption": 2.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 2.0,
+     "Imports": 2.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2021": {
+     "Domestic Consumption": 2.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 2.0,
+     "Imports": 2.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2022": {
+     "Domestic Consumption": 1.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 1.0,
+     "Imports": 1.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2023": {
+     "Domestic Consumption": 2.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 2.0,
+     "Imports": 2.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2024": {
+     "Domestic Consumption": 2.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 2.0,
+     "Imports": 2.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2025": {
+     "Domestic Consumption": 2.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 2.0,
+     "Imports": 2.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2026": {
+     "Domestic Consumption": 2.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 2.0,
+     "Imports": 2.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    }
+   },
+   "Canada": {
+    "2015": {
+     "Domestic Consumption": 782.0,
+     "Ending Stocks": 491.0,
+     "Exports": 2767.0,
+     "Food Use Dom. Cons.": 617.0,
+     "Imports": 46.0,
+     "Industrial Dom. Cons.": 165.0,
+     "Production": 3616.0
+    },
+    "2016": {
+     "Domestic Consumption": 965.0,
+     "Ending Stocks": 491.0,
+     "Exports": 3106.0,
+     "Food Use Dom. Cons.": 639.0,
+     "Imports": 54.0,
+     "Industrial Dom. Cons.": 326.0,
+     "Production": 4017.0
+    },
+    "2017": {
+     "Domestic Consumption": 970.0,
+     "Ending Stocks": 508.0,
+     "Exports": 3170.0,
+     "Food Use Dom. Cons.": 640.0,
+     "Imports": 14.0,
+     "Industrial Dom. Cons.": 330.0,
+     "Production": 4143.0
+    },
+    "2018": {
+     "Domestic Consumption": 985.0,
+     "Ending Stocks": 432.0,
+     "Exports": 3155.0,
+     "Food Use Dom. Cons.": 655.0,
+     "Imports": 16.0,
+     "Industrial Dom. Cons.": 330.0,
+     "Production": 4048.0
+    },
+    "2019": {
+     "Domestic Consumption": 1000.0,
+     "Ending Stocks": 457.0,
+     "Exports": 3429.0,
+     "Food Use Dom. Cons.": 670.0,
+     "Imports": 20.0,
+     "Industrial Dom. Cons.": 330.0,
+     "Production": 4434.0
+    },
+    "2020": {
+     "Domestic Consumption": 1020.0,
+     "Ending Stocks": 536.0,
+     "Exports": 3448.0,
+     "Food Use Dom. Cons.": 680.0,
+     "Imports": 19.0,
+     "Industrial Dom. Cons.": 340.0,
+     "Production": 4528.0
+    },
+    "2021": {
+     "Domestic Consumption": 1030.0,
+     "Ending Stocks": 525.0,
+     "Exports": 2573.0,
+     "Food Use Dom. Cons.": 690.0,
+     "Imports": 19.0,
+     "Industrial Dom. Cons.": 340.0,
+     "Production": 3573.0
+    },
+    "2022": {
+     "Domestic Consumption": 1165.0,
+     "Ending Stocks": 519.0,
+     "Exports": 3018.0,
+     "Food Use Dom. Cons.": 715.0,
+     "Imports": 26.0,
+     "Industrial Dom. Cons.": 450.0,
+     "Production": 4151.0
+    },
+    "2023": {
+     "Domestic Consumption": 1250.0,
+     "Ending Stocks": 550.0,
+     "Exports": 3444.0,
+     "Food Use Dom. Cons.": 750.0,
+     "Imports": 19.0,
+     "Industrial Dom. Cons.": 500.0,
+     "Production": 4706.0
+    },
+    "2024": {
+     "Domestic Consumption": 1330.0,
+     "Ending Stocks": 730.0,
+     "Exports": 3327.0,
+     "Food Use Dom. Cons.": 780.0,
+     "Imports": 16.0,
+     "Industrial Dom. Cons.": 550.0,
+     "Production": 4821.0
+    },
+    "2025": {
+     "Domestic Consumption": 1975.0,
+     "Ending Stocks": 907.0,
+     "Exports": 3346.0,
+     "Food Use Dom. Cons.": 875.0,
+     "Imports": 18.0,
+     "Industrial Dom. Cons.": 1100.0,
+     "Production": 5480.0
+    },
+    "2026": {
+     "Domestic Consumption": 2040.0,
+     "Ending Stocks": 855.0,
+     "Exports": 3900.0,
+     "Food Use Dom. Cons.": 840.0,
+     "Imports": 20.0,
+     "Industrial Dom. Cons.": 1200.0,
+     "Production": 5868.0
+    }
+   },
+   "China": {
+    "2015": {
+     "Domestic Consumption": 8500.0,
+     "Ending Stocks": 3740.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 8500.0,
+     "Imports": 768.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 6825.0
+    },
+    "2016": {
+     "Domestic Consumption": 8600.0,
+     "Ending Stocks": 2476.0,
+     "Exports": 18.0,
+     "Food Use Dom. Cons.": 8600.0,
+     "Imports": 802.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 6552.0
+    },
+    "2017": {
+     "Domestic Consumption": 8600.0,
+     "Ending Stocks": 1674.0,
+     "Exports": 16.0,
+     "Food Use Dom. Cons.": 8600.0,
+     "Imports": 1067.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 6747.0
+    },
+    "2018": {
+     "Domestic Consumption": 8300.0,
+     "Ending Stocks": 1301.0,
+     "Exports": 15.0,
+     "Food Use Dom. Cons.": 8300.0,
+     "Imports": 1507.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 6435.0
+    },
+    "2019": {
+     "Domestic Consumption": 8000.0,
+     "Ending Stocks": 1282.0,
+     "Exports": 4.0,
+     "Food Use Dom. Cons.": 8000.0,
+     "Imports": 1940.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 6045.0
+    },
+    "2020": {
+     "Domestic Consumption": 8000.0,
+     "Ending Stocks": 1885.0,
+     "Exports": 2.0,
+     "Food Use Dom. Cons.": 8000.0,
+     "Imports": 2365.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 6240.0
+    },
+    "2021": {
+     "Domestic Consumption": 8500.0,
+     "Ending Stocks": 790.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 8500.0,
+     "Imports": 973.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 6435.0
+    },
+    "2022": {
+     "Domestic Consumption": 8800.0,
+     "Ending Stocks": 1569.0,
+     "Exports": 4.0,
+     "Food Use Dom. Cons.": 8800.0,
+     "Imports": 1978.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 7605.0
+    },
+    "2023": {
+     "Domestic Consumption": 9700.0,
+     "Ending Stocks": 1609.0,
+     "Exports": 21.0,
+     "Food Use Dom. Cons.": 9700.0,
+     "Imports": 2039.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 7722.0
+    },
+    "2024": {
+     "Domestic Consumption": 10350.0,
+     "Ending Stocks": 1250.0,
+     "Exports": 19.0,
+     "Food Use Dom. Cons.": 10350.0,
+     "Imports": 2171.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 7839.0
+    },
+    "2025": {
+     "Domestic Consumption": 9700.0,
+     "Ending Stocks": 918.0,
+     "Exports": 120.0,
+     "Food Use Dom. Cons.": 9700.0,
+     "Imports": 1922.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 7566.0
+    },
+    "2026": {
+     "Domestic Consumption": 9900.0,
+     "Ending Stocks": 948.0,
+     "Exports": 120.0,
+     "Food Use Dom. Cons.": 9900.0,
+     "Imports": 2250.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 7800.0
+    }
+   },
+   "European Union": {
+    "2015": {
+     "Domestic Consumption": 10150.0,
+     "Ending Stocks": 525.0,
+     "Exports": 352.0,
+     "Food Use Dom. Cons.": 2900.0,
+     "Imports": 207.0,
+     "Industrial Dom. Cons.": 7200.0,
+     "Production": 10157.0
+    },
+    "2016": {
+     "Domestic Consumption": 9400.0,
+     "Ending Stocks": 212.0,
+     "Exports": 387.0,
+     "Food Use Dom. Cons.": 2250.0,
+     "Imports": 232.0,
+     "Industrial Dom. Cons.": 7100.0,
+     "Production": 9355.0
+    },
+    "2017": {
+     "Domestic Consumption": 9340.0,
+     "Ending Stocks": 86.0,
+     "Exports": 326.0,
+     "Food Use Dom. Cons.": 2200.0,
+     "Imports": 288.0,
+     "Industrial Dom. Cons.": 7090.0,
+     "Production": 9252.0
+    },
+    "2018": {
+     "Domestic Consumption": 9000.0,
+     "Ending Stocks": 318.0,
+     "Exports": 260.0,
+     "Food Use Dom. Cons.": 2250.0,
+     "Imports": 494.0,
+     "Industrial Dom. Cons.": 6700.0,
+     "Production": 8998.0
+    },
+    "2019": {
+     "Domestic Consumption": 8900.0,
+     "Ending Stocks": 378.0,
+     "Exports": 369.0,
+     "Food Use Dom. Cons.": 2250.0,
+     "Imports": 467.0,
+     "Industrial Dom. Cons.": 6600.0,
+     "Production": 8862.0
+    },
+    "2020": {
+     "Domestic Consumption": 9125.0,
+     "Ending Stocks": 211.0,
+     "Exports": 722.0,
+     "Food Use Dom. Cons.": 2400.0,
+     "Imports": 314.0,
+     "Industrial Dom. Cons.": 6675.0,
+     "Production": 9366.0
+    },
+    "2021": {
+     "Domestic Consumption": 9250.0,
+     "Ending Stocks": 324.0,
+     "Exports": 337.0,
+     "Food Use Dom. Cons.": 2600.0,
+     "Imports": 544.0,
+     "Industrial Dom. Cons.": 6600.0,
+     "Production": 9156.0
+    },
+    "2022": {
+     "Domestic Consumption": 9925.0,
+     "Ending Stocks": 294.0,
+     "Exports": 660.0,
+     "Food Use Dom. Cons.": 2900.0,
+     "Imports": 391.0,
+     "Industrial Dom. Cons.": 6975.0,
+     "Production": 10164.0
+    },
+    "2023": {
+     "Domestic Consumption": 9950.0,
+     "Ending Stocks": 325.0,
+     "Exports": 730.0,
+     "Food Use Dom. Cons.": 2850.0,
+     "Imports": 463.0,
+     "Industrial Dom. Cons.": 7050.0,
+     "Production": 10248.0
+    },
+    "2024": {
+     "Domestic Consumption": 9700.0,
+     "Ending Stocks": 298.0,
+     "Exports": 576.0,
+     "Food Use Dom. Cons.": 2900.0,
+     "Imports": 295.0,
+     "Industrial Dom. Cons.": 6750.0,
+     "Production": 9954.0
+    },
+    "2025": {
+     "Domestic Consumption": 10550.0,
+     "Ending Stocks": 557.0,
+     "Exports": 650.0,
+     "Food Use Dom. Cons.": 3250.0,
+     "Imports": 623.0,
+     "Industrial Dom. Cons.": 7250.0,
+     "Production": 10836.0
+    },
+    "2026": {
+     "Domestic Consumption": 10750.0,
+     "Ending Stocks": 593.0,
+     "Exports": 600.0,
+     "Food Use Dom. Cons.": 3350.0,
+     "Imports": 550.0,
+     "Industrial Dom. Cons.": 7350.0,
+     "Production": 10836.0
+    }
+   },
+   "India": {
+    "2015": {
+     "Domestic Consumption": 2280.0,
+     "Ending Stocks": 322.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 2200.0,
+     "Imports": 383.0,
+     "Industrial Dom. Cons.": 80.0,
+     "Production": 1900.0
+    },
+    "2016": {
+     "Domestic Consumption": 2435.0,
+     "Ending Stocks": 367.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 2350.0,
+     "Imports": 317.0,
+     "Industrial Dom. Cons.": 85.0,
+     "Production": 2166.0
+    },
+    "2017": {
+     "Domestic Consumption": 2730.0,
+     "Ending Stocks": 267.0,
+     "Exports": 4.0,
+     "Food Use Dom. Cons.": 2650.0,
+     "Imports": 278.0,
+     "Industrial Dom. Cons.": 80.0,
+     "Production": 2356.0
+    },
+    "2018": {
+     "Domestic Consumption": 2730.0,
+     "Ending Stocks": 217.0,
+     "Exports": 4.0,
+     "Food Use Dom. Cons.": 2650.0,
+     "Imports": 62.0,
+     "Industrial Dom. Cons.": 80.0,
+     "Production": 2622.0
+    },
+    "2019": {
+     "Domestic Consumption": 2780.0,
+     "Ending Stocks": 169.0,
+     "Exports": 6.0,
+     "Food Use Dom. Cons.": 2700.0,
+     "Imports": 78.0,
+     "Industrial Dom. Cons.": 80.0,
+     "Production": 2660.0
+    },
+    "2020": {
+     "Domestic Consumption": 2780.0,
+     "Ending Stocks": 295.0,
+     "Exports": 7.0,
+     "Food Use Dom. Cons.": 2700.0,
+     "Imports": 25.0,
+     "Industrial Dom. Cons.": 80.0,
+     "Production": 2888.0
+    },
+    "2021": {
+     "Domestic Consumption": 3780.0,
+     "Ending Stocks": 247.0,
+     "Exports": 7.0,
+     "Food Use Dom. Cons.": 3700.0,
+     "Imports": 34.0,
+     "Industrial Dom. Cons.": 80.0,
+     "Production": 3705.0
+    },
+    "2022": {
+     "Domestic Consumption": 3680.0,
+     "Ending Stocks": 402.0,
+     "Exports": 11.0,
+     "Food Use Dom. Cons.": 3600.0,
+     "Imports": 6.0,
+     "Industrial Dom. Cons.": 80.0,
+     "Production": 3840.0
+    },
+    "2023": {
+     "Domestic Consumption": 3980.0,
+     "Ending Stocks": 393.0,
+     "Exports": 10.0,
+     "Food Use Dom. Cons.": 3900.0,
+     "Imports": 6.0,
+     "Industrial Dom. Cons.": 80.0,
+     "Production": 3975.0
+    },
+    "2024": {
+     "Domestic Consumption": 4005.0,
+     "Ending Stocks": 357.0,
+     "Exports": 13.0,
+     "Food Use Dom. Cons.": 3925.0,
+     "Imports": 26.0,
+     "Industrial Dom. Cons.": 80.0,
+     "Production": 3956.0
+    },
+    "2025": {
+     "Domestic Consumption": 4080.0,
+     "Ending Stocks": 392.0,
+     "Exports": 15.0,
+     "Food Use Dom. Cons.": 4000.0,
+     "Imports": 40.0,
+     "Industrial Dom. Cons.": 80.0,
+     "Production": 4090.0
+    },
+    "2026": {
+     "Domestic Consumption": 4280.0,
+     "Ending Stocks": 403.0,
+     "Exports": 10.0,
+     "Food Use Dom. Cons.": 4200.0,
+     "Imports": 40.0,
+     "Industrial Dom. Cons.": 80.0,
+     "Production": 4261.0
+    }
+   },
+   "Indonesia": {
+    "2015": {
+     "Domestic Consumption": 11.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 11.0,
+     "Imports": 11.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2016": {
+     "Domestic Consumption": 10.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 10.0,
+     "Imports": 10.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2017": {
+     "Domestic Consumption": 10.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 10.0,
+     "Imports": 10.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2018": {
+     "Domestic Consumption": 10.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 10.0,
+     "Imports": 10.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2019": {
+     "Domestic Consumption": 10.0,
+     "Ending Stocks": 1.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 10.0,
+     "Imports": 11.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2020": {
+     "Domestic Consumption": 10.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 10.0,
+     "Imports": 9.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2021": {
+     "Domestic Consumption": 9.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 9.0,
+     "Imports": 9.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2022": {
+     "Domestic Consumption": 9.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 9.0,
+     "Imports": 9.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2023": {
+     "Domestic Consumption": 10.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 10.0,
+     "Imports": 10.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2024": {
+     "Domestic Consumption": 30.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 30.0,
+     "Imports": 30.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2025": {
+     "Domestic Consumption": 55.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 55.0,
+     "Imports": 55.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2026": {
+     "Domestic Consumption": 55.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 55.0,
+     "Imports": 55.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    }
+   },
+   "United States": {
+    "2015": {
+     "Domestic Consumption": 2413.0,
+     "Ending Stocks": 115.0,
+     "Exports": 111.0,
+     "Food Use Dom. Cons.": 1956.0,
+     "Imports": 1797.0,
+     "Industrial Dom. Cons.": 457.0,
+     "Production": 721.0
+    },
+    "2016": {
+     "Domestic Consumption": 2656.0,
+     "Ending Stocks": 134.0,
+     "Exports": 123.0,
+     "Food Use Dom. Cons.": 2069.0,
+     "Imports": 2000.0,
+     "Industrial Dom. Cons.": 587.0,
+     "Production": 798.0
+    },
+    "2017": {
+     "Domestic Consumption": 2546.0,
+     "Ending Stocks": 88.0,
+     "Exports": 105.0,
+     "Food Use Dom. Cons.": 1918.0,
+     "Imports": 1852.0,
+     "Industrial Dom. Cons.": 628.0,
+     "Production": 753.0
+    },
+    "2018": {
+     "Domestic Consumption": 2397.0,
+     "Ending Stocks": 72.0,
+     "Exports": 90.0,
+     "Food Use Dom. Cons.": 1898.0,
+     "Imports": 1774.0,
+     "Industrial Dom. Cons.": 499.0,
+     "Production": 697.0
+    },
+    "2019": {
+     "Domestic Consumption": 2559.0,
+     "Ending Stocks": 60.0,
+     "Exports": 106.0,
+     "Food Use Dom. Cons.": 1961.0,
+     "Imports": 1828.0,
+     "Industrial Dom. Cons.": 598.0,
+     "Production": 825.0
+    },
+    "2020": {
+     "Domestic Consumption": 2536.0,
+     "Ending Stocks": 63.0,
+     "Exports": 142.0,
+     "Food Use Dom. Cons.": 2014.0,
+     "Imports": 1867.0,
+     "Industrial Dom. Cons.": 522.0,
+     "Production": 814.0
+    },
+    "2021": {
+     "Domestic Consumption": 2564.0,
+     "Ending Stocks": 77.0,
+     "Exports": 99.0,
+     "Food Use Dom. Cons.": 1958.0,
+     "Imports": 2004.0,
+     "Industrial Dom. Cons.": 606.0,
+     "Production": 673.0
+    },
+    "2022": {
+     "Domestic Consumption": 3596.0,
+     "Ending Stocks": 72.0,
+     "Exports": 67.0,
+     "Food Use Dom. Cons.": 2274.0,
+     "Imports": 2844.0,
+     "Industrial Dom. Cons.": 1322.0,
+     "Production": 814.0
+    },
+    "2023": {
+     "Domestic Consumption": 4119.0,
+     "Ending Stocks": 55.0,
+     "Exports": 65.0,
+     "Food Use Dom. Cons.": 2153.0,
+     "Imports": 3295.0,
+     "Industrial Dom. Cons.": 1966.0,
+     "Production": 872.0
+    },
+    "2024": {
+     "Domestic Consumption": 3484.0,
+     "Ending Stocks": 66.0,
+     "Exports": 72.0,
+     "Food Use Dom. Cons.": 2027.0,
+     "Imports": 2740.0,
+     "Industrial Dom. Cons.": 1457.0,
+     "Production": 827.0
+    },
+    "2025": {
+     "Domestic Consumption": 3724.0,
+     "Ending Stocks": 81.0,
+     "Exports": 93.0,
+     "Food Use Dom. Cons.": 2046.0,
+     "Imports": 2924.0,
+     "Industrial Dom. Cons.": 1678.0,
+     "Production": 908.0
+    },
+    "2026": {
+     "Domestic Consumption": 4687.0,
+     "Ending Stocks": 85.0,
+     "Exports": 60.0,
+     "Food Use Dom. Cons.": 2147.0,
+     "Imports": 3760.0,
+     "Industrial Dom. Cons.": 2540.0,
+     "Production": 991.0
+    }
+   },
+   "World": {
+    "2015": {
+     "Domestic Consumption": 28479.0,
+     "Ending Stocks": 5630.0,
+     "Exports": 4168.0,
+     "Food Use Dom. Cons.": 20068.0,
+     "Imports": 4128.0,
+     "Industrial Dom. Cons.": 8035.0,
+     "Production": 27562.0
+    },
+    "2016": {
+     "Domestic Consumption": 29141.0,
+     "Ending Stocks": 4159.0,
+     "Exports": 4642.0,
+     "Food Use Dom. Cons.": 20509.0,
+     "Imports": 4555.0,
+     "Industrial Dom. Cons.": 8231.0,
+     "Production": 27805.0
+    },
+    "2017": {
+     "Domestic Consumption": 29169.0,
+     "Ending Stocks": 3314.0,
+     "Exports": 4835.0,
+     "Food Use Dom. Cons.": 20522.0,
+     "Imports": 4838.0,
+     "Industrial Dom. Cons.": 8246.0,
+     "Production": 28321.0
+    },
+    "2018": {
+     "Domestic Consumption": 28386.0,
+     "Ending Stocks": 2889.0,
+     "Exports": 5261.0,
+     "Food Use Dom. Cons.": 20236.0,
+     "Imports": 5180.0,
+     "Industrial Dom. Cons.": 7724.0,
+     "Production": 28042.0
+    },
+    "2019": {
+     "Domestic Consumption": 28331.0,
+     "Ending Stocks": 2909.0,
+     "Exports": 5873.0,
+     "Food Use Dom. Cons.": 20172.0,
+     "Imports": 5803.0,
+     "Industrial Dom. Cons.": 7733.0,
+     "Production": 28421.0
+    },
+    "2020": {
+     "Domestic Consumption": 28594.0,
+     "Ending Stocks": 3663.0,
+     "Exports": 6415.0,
+     "Food Use Dom. Cons.": 20364.0,
+     "Imports": 6325.0,
+     "Industrial Dom. Cons.": 7754.0,
+     "Production": 29438.0
+    },
+    "2021": {
+     "Domestic Consumption": 30162.0,
+     "Ending Stocks": 2541.0,
+     "Exports": 5212.0,
+     "Food Use Dom. Cons.": 21955.0,
+     "Imports": 5107.0,
+     "Industrial Dom. Cons.": 7756.0,
+     "Production": 29145.0
+    },
+    "2022": {
+     "Domestic Consumption": 32714.0,
+     "Ending Stocks": 3438.0,
+     "Exports": 6533.0,
+     "Food Use Dom. Cons.": 23322.0,
+     "Imports": 6897.0,
+     "Industrial Dom. Cons.": 8966.0,
+     "Production": 33247.0
+    },
+    "2023": {
+     "Domestic Consumption": 34348.0,
+     "Ending Stocks": 3472.0,
+     "Exports": 7500.0,
+     "Food Use Dom. Cons.": 24186.0,
+     "Imports": 7496.0,
+     "Industrial Dom. Cons.": 9736.0,
+     "Production": 34386.0
+    },
+    "2024": {
+     "Domestic Consumption": 34398.0,
+     "Ending Stocks": 3327.0,
+     "Exports": 7125.0,
+     "Food Use Dom. Cons.": 24993.0,
+     "Imports": 7097.0,
+     "Industrial Dom. Cons.": 8979.0,
+     "Production": 34281.0
+    },
+    "2025": {
+     "Domestic Consumption": 35873.0,
+     "Ending Stocks": 3597.0,
+     "Exports": 7903.0,
+     "Food Use Dom. Cons.": 25202.0,
+     "Imports": 7400.0,
+     "Industrial Dom. Cons.": 10245.0,
+     "Production": 36646.0
+    },
+    "2026": {
+     "Domestic Consumption": 37732.0,
+     "Ending Stocks": 3728.0,
+     "Exports": 8860.0,
+     "Food Use Dom. Cons.": 25969.0,
+     "Imports": 8475.0,
+     "Industrial Dom. Cons.": 11313.0,
+     "Production": 38248.0
+    }
+   }
+  },
+  "Soybean oil": {
+   "Argentina": {
+    "2015": {
+     "Domestic Consumption": 2840.0,
+     "Ending Stocks": 260.0,
+     "Exports": 5698.0,
+     "Food Use Dom. Cons.": 415.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2425.0,
+     "Production": 8433.0
+    },
+    "2016": {
+     "Domestic Consumption": 3085.0,
+     "Ending Stocks": 183.0,
+     "Exports": 5387.0,
+     "Food Use Dom. Cons.": 435.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2650.0,
+     "Production": 8395.0
+    },
+    "2017": {
+     "Domestic Consumption": 2981.0,
+     "Ending Stocks": 275.0,
+     "Exports": 4164.0,
+     "Food Use Dom. Cons.": 455.0,
+     "Imports": 1.0,
+     "Industrial Dom. Cons.": 2526.0,
+     "Production": 7236.0
+    },
+    "2018": {
+     "Domestic Consumption": 2625.0,
+     "Ending Stocks": 426.0,
+     "Exports": 5268.0,
+     "Food Use Dom. Cons.": 475.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2150.0,
+     "Production": 8044.0
+    },
+    "2019": {
+     "Domestic Consumption": 2180.0,
+     "Ending Stocks": 542.0,
+     "Exports": 5404.0,
+     "Food Use Dom. Cons.": 490.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 1690.0,
+     "Production": 7700.0
+    },
+    "2020": {
+     "Domestic Consumption": 2045.0,
+     "Ending Stocks": 292.0,
+     "Exports": 6137.0,
+     "Food Use Dom. Cons.": 495.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 1550.0,
+     "Production": 7932.0
+    },
+    "2021": {
+     "Domestic Consumption": 2650.0,
+     "Ending Stocks": 521.0,
+     "Exports": 4873.0,
+     "Food Use Dom. Cons.": 500.0,
+     "Imports": 93.0,
+     "Industrial Dom. Cons.": 2150.0,
+     "Production": 7659.0
+    },
+    "2022": {
+     "Domestic Consumption": 1660.0,
+     "Ending Stocks": 719.0,
+     "Exports": 4137.0,
+     "Food Use Dom. Cons.": 460.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 1200.0,
+     "Production": 5995.0
+    },
+    "2023": {
+     "Domestic Consumption": 1770.0,
+     "Ending Stocks": 669.0,
+     "Exports": 5533.0,
+     "Food Use Dom. Cons.": 570.0,
+     "Imports": 2.0,
+     "Industrial Dom. Cons.": 1200.0,
+     "Production": 7251.0
+    },
+    "2024": {
+     "Domestic Consumption": 1980.0,
+     "Ending Stocks": 323.0,
+     "Exports": 7099.0,
+     "Food Use Dom. Cons.": 580.0,
+     "Imports": 107.0,
+     "Industrial Dom. Cons.": 1400.0,
+     "Production": 8626.0
+    },
+    "2025": {
+     "Domestic Consumption": 1980.0,
+     "Ending Stocks": 253.0,
+     "Exports": 6809.0,
+     "Food Use Dom. Cons.": 580.0,
+     "Imports": 154.0,
+     "Industrial Dom. Cons.": 1400.0,
+     "Production": 8565.0
+    },
+    "2026": {
+     "Domestic Consumption": 1990.0,
+     "Ending Stocks": 331.0,
+     "Exports": 6750.0,
+     "Food Use Dom. Cons.": 590.0,
+     "Imports": 140.0,
+     "Industrial Dom. Cons.": 1400.0,
+     "Production": 8678.0
+    }
+   },
+   "Brazil": {
+    "2015": {
+     "Domestic Consumption": 6288.0,
+     "Ending Stocks": 287.0,
+     "Exports": 1550.0,
+     "Food Use Dom. Cons.": 3598.0,
+     "Imports": 63.0,
+     "Industrial Dom. Cons.": 2690.0,
+     "Production": 7627.0
+    },
+    "2016": {
+     "Domestic Consumption": 6570.0,
+     "Ending Stocks": 291.0,
+     "Exports": 1241.0,
+     "Food Use Dom. Cons.": 3660.0,
+     "Imports": 60.0,
+     "Industrial Dom. Cons.": 2910.0,
+     "Production": 7755.0
+    },
+    "2017": {
+     "Domestic Consumption": 6940.0,
+     "Ending Stocks": 370.0,
+     "Exports": 1511.0,
+     "Food Use Dom. Cons.": 3695.0,
+     "Imports": 45.0,
+     "Industrial Dom. Cons.": 3245.0,
+     "Production": 8485.0
+    },
+    "2018": {
+     "Domestic Consumption": 7500.0,
+     "Ending Stocks": 314.0,
+     "Exports": 1085.0,
+     "Food Use Dom. Cons.": 3700.0,
+     "Imports": 24.0,
+     "Industrial Dom. Cons.": 3800.0,
+     "Production": 8505.0
+    },
+    "2019": {
+     "Domestic Consumption": 7850.0,
+     "Ending Stocks": 722.0,
+     "Exports": 1156.0,
+     "Food Use Dom. Cons.": 3750.0,
+     "Imports": 66.0,
+     "Industrial Dom. Cons.": 4100.0,
+     "Production": 9348.0
+    },
+    "2020": {
+     "Domestic Consumption": 8150.0,
+     "Ending Stocks": 895.0,
+     "Exports": 1261.0,
+     "Food Use Dom. Cons.": 3850.0,
+     "Imports": 249.0,
+     "Industrial Dom. Cons.": 4300.0,
+     "Production": 9335.0
+    },
+    "2021": {
+     "Domestic Consumption": 7700.0,
+     "Ending Stocks": 972.0,
+     "Exports": 2408.0,
+     "Food Use Dom. Cons.": 3950.0,
+     "Imports": 32.0,
+     "Industrial Dom. Cons.": 3750.0,
+     "Production": 10153.0
+    },
+    "2022": {
+     "Domestic Consumption": 8300.0,
+     "Ending Stocks": 594.0,
+     "Exports": 2687.0,
+     "Food Use Dom. Cons.": 4000.0,
+     "Imports": 29.0,
+     "Industrial Dom. Cons.": 4300.0,
+     "Production": 10580.0
+    },
+    "2023": {
+     "Domestic Consumption": 10200.0,
+     "Ending Stocks": 177.0,
+     "Exports": 1352.0,
+     "Food Use Dom. Cons.": 4000.0,
+     "Imports": 80.0,
+     "Industrial Dom. Cons.": 6200.0,
+     "Production": 11055.0
+    },
+    "2024": {
+     "Domestic Consumption": 10410.0,
+     "Ending Stocks": 207.0,
+     "Exports": 1487.0,
+     "Food Use Dom. Cons.": 4010.0,
+     "Imports": 85.0,
+     "Industrial Dom. Cons.": 6400.0,
+     "Production": 11842.0
+    },
+    "2025": {
+     "Domestic Consumption": 10900.0,
+     "Ending Stocks": 197.0,
+     "Exports": 1946.0,
+     "Food Use Dom. Cons.": 4000.0,
+     "Imports": 80.0,
+     "Industrial Dom. Cons.": 6900.0,
+     "Production": 12756.0
+    },
+    "2026": {
+     "Domestic Consumption": 11400.0,
+     "Ending Stocks": 264.0,
+     "Exports": 1900.0,
+     "Food Use Dom. Cons.": 4100.0,
+     "Imports": 100.0,
+     "Industrial Dom. Cons.": 7300.0,
+     "Production": 13267.0
+    }
+   },
+   "Canada": {
+    "2015": {
+     "Domestic Consumption": 211.0,
+     "Ending Stocks": 15.0,
+     "Exports": 151.0,
+     "Food Use Dom. Cons.": 211.0,
+     "Imports": 19.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 353.0
+    },
+    "2016": {
+     "Domestic Consumption": 206.0,
+     "Ending Stocks": 7.0,
+     "Exports": 175.0,
+     "Food Use Dom. Cons.": 206.0,
+     "Imports": 23.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 350.0
+    },
+    "2017": {
+     "Domestic Consumption": 219.0,
+     "Ending Stocks": 7.0,
+     "Exports": 157.0,
+     "Food Use Dom. Cons.": 219.0,
+     "Imports": 21.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 355.0
+    },
+    "2018": {
+     "Domestic Consumption": 225.0,
+     "Ending Stocks": 32.0,
+     "Exports": 169.0,
+     "Food Use Dom. Cons.": 225.0,
+     "Imports": 23.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 396.0
+    },
+    "2019": {
+     "Domestic Consumption": 225.0,
+     "Ending Stocks": 10.0,
+     "Exports": 144.0,
+     "Food Use Dom. Cons.": 225.0,
+     "Imports": 27.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 320.0
+    },
+    "2020": {
+     "Domestic Consumption": 230.0,
+     "Ending Stocks": 15.0,
+     "Exports": 119.0,
+     "Food Use Dom. Cons.": 230.0,
+     "Imports": 48.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 306.0
+    },
+    "2021": {
+     "Domestic Consumption": 240.0,
+     "Ending Stocks": 28.0,
+     "Exports": 153.0,
+     "Food Use Dom. Cons.": 240.0,
+     "Imports": 63.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 343.0
+    },
+    "2022": {
+     "Domestic Consumption": 300.0,
+     "Ending Stocks": 74.0,
+     "Exports": 138.0,
+     "Food Use Dom. Cons.": 250.0,
+     "Imports": 147.0,
+     "Industrial Dom. Cons.": 50.0,
+     "Production": 337.0
+    },
+    "2023": {
+     "Domestic Consumption": 675.0,
+     "Ending Stocks": 142.0,
+     "Exports": 142.0,
+     "Food Use Dom. Cons.": 255.0,
+     "Imports": 573.0,
+     "Industrial Dom. Cons.": 420.0,
+     "Production": 312.0
+    },
+    "2024": {
+     "Domestic Consumption": 705.0,
+     "Ending Stocks": 177.0,
+     "Exports": 128.0,
+     "Food Use Dom. Cons.": 255.0,
+     "Imports": 550.0,
+     "Industrial Dom. Cons.": 450.0,
+     "Production": 318.0
+    },
+    "2025": {
+     "Domestic Consumption": 680.0,
+     "Ending Stocks": 145.0,
+     "Exports": 156.0,
+     "Food Use Dom. Cons.": 200.0,
+     "Imports": 476.0,
+     "Industrial Dom. Cons.": 480.0,
+     "Production": 328.0
+    },
+    "2026": {
+     "Domestic Consumption": 750.0,
+     "Ending Stocks": 163.0,
+     "Exports": 135.0,
+     "Food Use Dom. Cons.": 250.0,
+     "Imports": 575.0,
+     "Industrial Dom. Cons.": 500.0,
+     "Production": 328.0
+    }
+   },
+   "China": {
+    "2015": {
+     "Domestic Consumption": 15350.0,
+     "Ending Stocks": 757.0,
+     "Exports": 96.0,
+     "Food Use Dom. Cons.": 15350.0,
+     "Imports": 586.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 14605.0
+    },
+    "2016": {
+     "Domestic Consumption": 16350.0,
+     "Ending Stocks": 770.0,
+     "Exports": 118.0,
+     "Food Use Dom. Cons.": 16350.0,
+     "Imports": 711.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 15770.0
+    },
+    "2017": {
+     "Domestic Consumption": 16500.0,
+     "Ending Stocks": 669.0,
+     "Exports": 210.0,
+     "Food Use Dom. Cons.": 16500.0,
+     "Imports": 481.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 16128.0
+    },
+    "2018": {
+     "Domestic Consumption": 15850.0,
+     "Ending Stocks": 637.0,
+     "Exports": 197.0,
+     "Food Use Dom. Cons.": 15850.0,
+     "Imports": 783.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 15232.0
+    },
+    "2019": {
+     "Domestic Consumption": 17100.0,
+     "Ending Stocks": 777.0,
+     "Exports": 155.0,
+     "Food Use Dom. Cons.": 17100.0,
+     "Imports": 998.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 16397.0
+    },
+    "2020": {
+     "Domestic Consumption": 17800.0,
+     "Ending Stocks": 1180.0,
+     "Exports": 42.0,
+     "Food Use Dom. Cons.": 17800.0,
+     "Imports": 1221.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 17024.0
+    },
+    "2021": {
+     "Domestic Consumption": 17100.0,
+     "Ending Stocks": 387.0,
+     "Exports": 112.0,
+     "Food Use Dom. Cons.": 17100.0,
+     "Imports": 291.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 16128.0
+    },
+    "2022": {
+     "Domestic Consumption": 17900.0,
+     "Ending Stocks": 981.0,
+     "Exports": 111.0,
+     "Food Use Dom. Cons.": 17900.0,
+     "Imports": 365.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 18240.0
+    },
+    "2023": {
+     "Domestic Consumption": 18900.0,
+     "Ending Stocks": 1168.0,
+     "Exports": 104.0,
+     "Food Use Dom. Cons.": 18900.0,
+     "Imports": 381.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 18810.0
+    },
+    "2024": {
+     "Domestic Consumption": 20500.0,
+     "Ending Stocks": 746.0,
+     "Exports": 318.0,
+     "Food Use Dom. Cons.": 20500.0,
+     "Imports": 296.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 20100.0
+    },
+    "2025": {
+     "Domestic Consumption": 20800.0,
+     "Ending Stocks": 799.0,
+     "Exports": 1080.0,
+     "Food Use Dom. Cons.": 20800.0,
+     "Imports": 133.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 21800.0
+    },
+    "2026": {
+     "Domestic Consumption": 20700.0,
+     "Ending Stocks": 805.0,
+     "Exports": 1000.0,
+     "Food Use Dom. Cons.": 20700.0,
+     "Imports": 150.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 21556.0
+    }
+   },
+   "European Union": {
+    "2015": {
+     "Domestic Consumption": 2285.0,
+     "Ending Stocks": 164.0,
+     "Exports": 915.0,
+     "Food Use Dom. Cons.": 1300.0,
+     "Imports": 325.0,
+     "Industrial Dom. Cons.": 930.0,
+     "Production": 2841.0
+    },
+    "2016": {
+     "Domestic Consumption": 1955.0,
+     "Ending Stocks": 211.0,
+     "Exports": 973.0,
+     "Food Use Dom. Cons.": 1050.0,
+     "Imports": 306.0,
+     "Industrial Dom. Cons.": 850.0,
+     "Production": 2660.0
+    },
+    "2017": {
+     "Domestic Consumption": 1935.0,
+     "Ending Stocks": 245.0,
+     "Exports": 1074.0,
+     "Food Use Dom. Cons.": 1010.0,
+     "Imports": 288.0,
+     "Industrial Dom. Cons.": 870.0,
+     "Production": 2755.0
+    },
+    "2018": {
+     "Domestic Consumption": 2255.0,
+     "Ending Stocks": 282.0,
+     "Exports": 977.0,
+     "Food Use Dom. Cons.": 1100.0,
+     "Imports": 419.0,
+     "Industrial Dom. Cons.": 1100.0,
+     "Production": 2850.0
+    },
+    "2019": {
+     "Domestic Consumption": 2380.0,
+     "Ending Stocks": 439.0,
+     "Exports": 910.0,
+     "Food Use Dom. Cons.": 1175.0,
+     "Imports": 483.0,
+     "Industrial Dom. Cons.": 1150.0,
+     "Production": 2964.0
+    },
+    "2020": {
+     "Domestic Consumption": 2430.0,
+     "Ending Stocks": 443.0,
+     "Exports": 1061.0,
+     "Food Use Dom. Cons.": 1275.0,
+     "Imports": 493.0,
+     "Industrial Dom. Cons.": 1100.0,
+     "Production": 3002.0
+    },
+    "2021": {
+     "Domestic Consumption": 2305.0,
+     "Ending Stocks": 563.0,
+     "Exports": 959.0,
+     "Food Use Dom. Cons.": 1150.0,
+     "Imports": 458.0,
+     "Industrial Dom. Cons.": 1100.0,
+     "Production": 2926.0
+    },
+    "2022": {
+     "Domestic Consumption": 2405.0,
+     "Ending Stocks": 601.0,
+     "Exports": 915.0,
+     "Food Use Dom. Cons.": 1250.0,
+     "Imports": 641.0,
+     "Industrial Dom. Cons.": 1100.0,
+     "Production": 2717.0
+    },
+    "2023": {
+     "Domestic Consumption": 2630.0,
+     "Ending Stocks": 659.0,
+     "Exports": 659.0,
+     "Food Use Dom. Cons.": 1425.0,
+     "Imports": 592.0,
+     "Industrial Dom. Cons.": 1150.0,
+     "Production": 2755.0
+    },
+    "2024": {
+     "Domestic Consumption": 3005.0,
+     "Ending Stocks": 629.0,
+     "Exports": 708.0,
+     "Food Use Dom. Cons.": 1550.0,
+     "Imports": 757.0,
+     "Industrial Dom. Cons.": 1400.0,
+     "Production": 2926.0
+    },
+    "2025": {
+     "Domestic Consumption": 2980.0,
+     "Ending Stocks": 574.0,
+     "Exports": 750.0,
+     "Food Use Dom. Cons.": 1675.0,
+     "Imports": 825.0,
+     "Industrial Dom. Cons.": 1250.0,
+     "Production": 2850.0
+    },
+    "2026": {
+     "Domestic Consumption": 2630.0,
+     "Ending Stocks": 614.0,
+     "Exports": 800.0,
+     "Food Use Dom. Cons.": 1375.0,
+     "Imports": 650.0,
+     "Industrial Dom. Cons.": 1200.0,
+     "Production": 2820.0
+    }
+   },
+   "India": {
+    "2015": {
+     "Domestic Consumption": 5250.0,
+     "Ending Stocks": 474.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 5250.0,
+     "Imports": 4269.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 990.0
+    },
+    "2016": {
+     "Domestic Consumption": 5150.0,
+     "Ending Stocks": 477.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 5150.0,
+     "Imports": 3534.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 1620.0
+    },
+    "2017": {
+     "Domestic Consumption": 4670.0,
+     "Ending Stocks": 170.0,
+     "Exports": 7.0,
+     "Food Use Dom. Cons.": 4670.0,
+     "Imports": 2984.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 1386.0
+    },
+    "2018": {
+     "Domestic Consumption": 4750.0,
+     "Ending Stocks": 140.0,
+     "Exports": 8.0,
+     "Food Use Dom. Cons.": 4750.0,
+     "Imports": 3000.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 1728.0
+    },
+    "2019": {
+     "Domestic Consumption": 5125.0,
+     "Ending Stocks": 175.0,
+     "Exports": 16.0,
+     "Food Use Dom. Cons.": 5125.0,
+     "Imports": 3626.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 1550.0
+    },
+    "2020": {
+     "Domestic Consumption": 4950.0,
+     "Ending Stocks": 265.0,
+     "Exports": 11.0,
+     "Food Use Dom. Cons.": 4950.0,
+     "Imports": 3251.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 1800.0
+    },
+    "2021": {
+     "Domestic Consumption": 5825.0,
+     "Ending Stocks": 186.0,
+     "Exports": 15.0,
+     "Food Use Dom. Cons.": 5825.0,
+     "Imports": 4231.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 1530.0
+    },
+    "2022": {
+     "Domestic Consumption": 5400.0,
+     "Ending Stocks": 597.0,
+     "Exports": 11.0,
+     "Food Use Dom. Cons.": 5400.0,
+     "Imports": 3968.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 1854.0
+    },
+    "2023": {
+     "Domestic Consumption": 5175.0,
+     "Ending Stocks": 748.0,
+     "Exports": 16.0,
+     "Food Use Dom. Cons.": 5175.0,
+     "Imports": 3308.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 2034.0
+    },
+    "2024": {
+     "Domestic Consumption": 6645.0,
+     "Ending Stocks": 1581.0,
+     "Exports": 27.0,
+     "Food Use Dom. Cons.": 6645.0,
+     "Imports": 5471.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 2034.0
+    },
+    "2025": {
+     "Domestic Consumption": 7300.0,
+     "Ending Stocks": 1665.0,
+     "Exports": 35.0,
+     "Food Use Dom. Cons.": 7300.0,
+     "Imports": 5600.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 1819.0
+    },
+    "2026": {
+     "Domestic Consumption": 6800.0,
+     "Ending Stocks": 1669.0,
+     "Exports": 15.0,
+     "Food Use Dom. Cons.": 6800.0,
+     "Imports": 5000.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 1819.0
+    }
+   },
+   "Indonesia": {
+    "2015": {
+     "Domestic Consumption": 24.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 24.0,
+     "Imports": 24.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2016": {
+     "Domestic Consumption": 23.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 23.0,
+     "Imports": 23.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2017": {
+     "Domestic Consumption": 30.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 30.0,
+     "Imports": 30.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2018": {
+     "Domestic Consumption": 34.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 34.0,
+     "Imports": 34.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2019": {
+     "Domestic Consumption": 34.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 34.0,
+     "Imports": 34.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2020": {
+     "Domestic Consumption": 36.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 36.0,
+     "Imports": 36.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2021": {
+     "Domestic Consumption": 36.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 36.0,
+     "Imports": 36.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2022": {
+     "Domestic Consumption": 31.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 31.0,
+     "Imports": 31.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2023": {
+     "Domestic Consumption": 34.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 34.0,
+     "Imports": 34.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2024": {
+     "Domestic Consumption": 34.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 34.0,
+     "Imports": 34.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2025": {
+     "Domestic Consumption": 80.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 80.0,
+     "Imports": 80.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2026": {
+     "Domestic Consumption": 100.0,
+     "Ending Stocks": 0.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 100.0,
+     "Imports": 100.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    }
+   },
+   "Malaysia": {
+    "2015": {
+     "Domestic Consumption": 65.0,
+     "Ending Stocks": 15.0,
+     "Exports": 148.0,
+     "Food Use Dom. Cons.": 65.0,
+     "Imports": 120.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 105.0
+    },
+    "2016": {
+     "Domestic Consumption": 72.0,
+     "Ending Stocks": 40.0,
+     "Exports": 137.0,
+     "Food Use Dom. Cons.": 72.0,
+     "Imports": 138.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 96.0
+    },
+    "2017": {
+     "Domestic Consumption": 70.0,
+     "Ending Stocks": 21.0,
+     "Exports": 124.0,
+     "Food Use Dom. Cons.": 70.0,
+     "Imports": 88.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 87.0
+    },
+    "2018": {
+     "Domestic Consumption": 75.0,
+     "Ending Stocks": 2.0,
+     "Exports": 120.0,
+     "Food Use Dom. Cons.": 75.0,
+     "Imports": 83.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 93.0
+    },
+    "2019": {
+     "Domestic Consumption": 80.0,
+     "Ending Stocks": 5.0,
+     "Exports": 118.0,
+     "Food Use Dom. Cons.": 80.0,
+     "Imports": 107.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 94.0
+    },
+    "2020": {
+     "Domestic Consumption": 88.0,
+     "Ending Stocks": 14.0,
+     "Exports": 108.0,
+     "Food Use Dom. Cons.": 88.0,
+     "Imports": 110.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 95.0
+    },
+    "2021": {
+     "Domestic Consumption": 47.0,
+     "Ending Stocks": 2.0,
+     "Exports": 120.0,
+     "Food Use Dom. Cons.": 47.0,
+     "Imports": 65.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 90.0
+    },
+    "2022": {
+     "Domestic Consumption": 60.0,
+     "Ending Stocks": 7.0,
+     "Exports": 106.0,
+     "Food Use Dom. Cons.": 60.0,
+     "Imports": 88.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 83.0
+    },
+    "2023": {
+     "Domestic Consumption": 70.0,
+     "Ending Stocks": 16.0,
+     "Exports": 97.0,
+     "Food Use Dom. Cons.": 70.0,
+     "Imports": 89.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 87.0
+    },
+    "2024": {
+     "Domestic Consumption": 80.0,
+     "Ending Stocks": 6.0,
+     "Exports": 112.0,
+     "Food Use Dom. Cons.": 80.0,
+     "Imports": 92.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 90.0
+    },
+    "2025": {
+     "Domestic Consumption": 44.0,
+     "Ending Stocks": 5.0,
+     "Exports": 130.0,
+     "Food Use Dom. Cons.": 44.0,
+     "Imports": 90.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 83.0
+    },
+    "2026": {
+     "Domestic Consumption": 72.0,
+     "Ending Stocks": 5.0,
+     "Exports": 110.0,
+     "Food Use Dom. Cons.": 72.0,
+     "Imports": 92.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 90.0
+    }
+   },
+   "United States": {
+    "2015": {
+     "Domestic Consumption": 9145.0,
+     "Ending Stocks": 765.0,
+     "Exports": 1017.0,
+     "Food Use Dom. Cons.": 6573.0,
+     "Imports": 130.0,
+     "Industrial Dom. Cons.": 2572.0,
+     "Production": 9956.0
+    },
+    "2016": {
+     "Domestic Consumption": 9010.0,
+     "Ending Stocks": 776.0,
+     "Exports": 1159.0,
+     "Food Use Dom. Cons.": 6198.0,
+     "Imports": 145.0,
+     "Industrial Dom. Cons.": 2812.0,
+     "Production": 10035.0
+    },
+    "2017": {
+     "Domestic Consumption": 9698.0,
+     "Ending Stocks": 905.0,
+     "Exports": 1108.0,
+     "Food Use Dom. Cons.": 6371.0,
+     "Imports": 152.0,
+     "Industrial Dom. Cons.": 3327.0,
+     "Production": 10783.0
+    },
+    "2018": {
+     "Domestic Consumption": 10376.0,
+     "Ending Stocks": 805.0,
+     "Exports": 880.0,
+     "Food Use Dom. Cons.": 6446.0,
+     "Imports": 180.0,
+     "Industrial Dom. Cons.": 3930.0,
+     "Production": 10976.0
+    },
+    "2019": {
+     "Domestic Consumption": 10122.0,
+     "Ending Stocks": 840.0,
+     "Exports": 1287.0,
+     "Food Use Dom. Cons.": 6195.0,
+     "Imports": 145.0,
+     "Industrial Dom. Cons.": 3927.0,
+     "Production": 11299.0
+    },
+    "2020": {
+     "Domestic Consumption": 10574.0,
+     "Ending Stocks": 967.0,
+     "Exports": 786.0,
+     "Food Use Dom. Cons.": 6528.0,
+     "Imports": 137.0,
+     "Industrial Dom. Cons.": 4046.0,
+     "Production": 11350.0
+    },
+    "2021": {
+     "Domestic Consumption": 11262.0,
+     "Ending Stocks": 903.0,
+     "Exports": 803.0,
+     "Food Use Dom. Cons.": 6554.0,
+     "Imports": 137.0,
+     "Industrial Dom. Cons.": 4708.0,
+     "Production": 11864.0
+    },
+    "2022": {
+     "Domestic Consumption": 12070.0,
+     "Ending Stocks": 729.0,
+     "Exports": 171.0,
+     "Food Use Dom. Cons.": 6395.0,
+     "Imports": 170.0,
+     "Industrial Dom. Cons.": 5675.0,
+     "Production": 11897.0
+    },
+    "2023": {
+     "Domestic Consumption": 12317.0,
+     "Ending Stocks": 703.0,
+     "Exports": 280.0,
+     "Food Use Dom. Cons.": 6423.0,
+     "Imports": 282.0,
+     "Industrial Dom. Cons.": 5894.0,
+     "Production": 12289.0
+    },
+    "2024": {
+     "Domestic Consumption": 12207.0,
+     "Ending Stocks": 792.0,
+     "Exports": 1121.0,
+     "Food Use Dom. Cons.": 6874.0,
+     "Imports": 164.0,
+     "Industrial Dom. Cons.": 5333.0,
+     "Production": 13253.0
+    },
+    "2025": {
+     "Domestic Consumption": 13794.0,
+     "Ending Stocks": 661.0,
+     "Exports": 445.0,
+     "Food Use Dom. Cons.": 7035.0,
+     "Imports": 239.0,
+     "Industrial Dom. Cons.": 6759.0,
+     "Production": 13869.0
+    },
+    "2026": {
+     "Domestic Consumption": 14972.0,
+     "Ending Stocks": 770.0,
+     "Exports": 181.0,
+     "Food Use Dom. Cons.": 6898.0,
+     "Imports": 318.0,
+     "Industrial Dom. Cons.": 8074.0,
+     "Production": 14944.0
+    }
+   },
+   "World": {
+    "2015": {
+     "Domestic Consumption": 52087.0,
+     "Ending Stocks": 4191.0,
+     "Exports": 11834.0,
+     "Food Use Dom. Cons.": 42930.0,
+     "Imports": 11755.0,
+     "Industrial Dom. Cons.": 9022.0,
+     "Production": 51662.0
+    },
+    "2016": {
+     "Domestic Consumption": 53576.0,
+     "Ending Stocks": 4363.0,
+     "Exports": 11452.0,
+     "Food Use Dom. Cons.": 43795.0,
+     "Imports": 11226.0,
+     "Industrial Dom. Cons.": 9671.0,
+     "Production": 53953.0
+    },
+    "2017": {
+     "Domestic Consumption": 54442.0,
+     "Ending Stocks": 4516.0,
+     "Exports": 10780.0,
+     "Food Use Dom. Cons.": 43899.0,
+     "Imports": 10064.0,
+     "Industrial Dom. Cons.": 10433.0,
+     "Production": 55311.0
+    },
+    "2018": {
+     "Domestic Consumption": 55649.0,
+     "Ending Stocks": 4817.0,
+     "Exports": 11475.0,
+     "Food Use Dom. Cons.": 44081.0,
+     "Imports": 10948.0,
+     "Industrial Dom. Cons.": 11458.0,
+     "Production": 56477.0
+    },
+    "2019": {
+     "Domestic Consumption": 57303.0,
+     "Ending Stocks": 5664.0,
+     "Exports": 12384.0,
+     "Food Use Dom. Cons.": 45904.0,
+     "Imports": 11623.0,
+     "Industrial Dom. Cons.": 11294.0,
+     "Production": 58911.0
+    },
+    "2020": {
+     "Domestic Consumption": 58937.0,
+     "Ending Stocks": 5943.0,
+     "Exports": 12605.0,
+     "Food Use Dom. Cons.": 47458.0,
+     "Imports": 11760.0,
+     "Industrial Dom. Cons.": 11399.0,
+     "Production": 60061.0
+    },
+    "2021": {
+     "Domestic Consumption": 59726.0,
+     "Ending Stocks": 5304.0,
+     "Exports": 12429.0,
+     "Food Use Dom. Cons.": 47585.0,
+     "Imports": 11510.0,
+     "Industrial Dom. Cons.": 12076.0,
+     "Production": 60006.0
+    },
+    "2022": {
+     "Domestic Consumption": 59394.0,
+     "Ending Stocks": 5882.0,
+     "Exports": 11742.0,
+     "Food Use Dom. Cons.": 46661.0,
+     "Imports": 10976.0,
+     "Industrial Dom. Cons.": 12673.0,
+     "Production": 60738.0
+    },
+    "2023": {
+     "Domestic Consumption": 62924.0,
+     "Ending Stocks": 5690.0,
+     "Exports": 11812.0,
+     "Food Use Dom. Cons.": 47597.0,
+     "Imports": 10531.0,
+     "Industrial Dom. Cons.": 15267.0,
+     "Production": 64013.0
+    },
+    "2024": {
+     "Domestic Consumption": 68243.0,
+     "Ending Stocks": 6451.0,
+     "Exports": 15258.0,
+     "Food Use Dom. Cons.": 52717.0,
+     "Imports": 14184.0,
+     "Industrial Dom. Cons.": 15441.0,
+     "Production": 70078.0
+    },
+    "2025": {
+     "Domestic Consumption": 72176.0,
+     "Ending Stocks": 6235.0,
+     "Exports": 15545.0,
+     "Food Use Dom. Cons.": 54832.0,
+     "Imports": 13889.0,
+     "Industrial Dom. Cons.": 17259.0,
+     "Production": 73616.0
+    },
+    "2026": {
+     "Domestic Consumption": 73604.0,
+     "Ending Stocks": 6528.0,
+     "Exports": 15099.0,
+     "Food Use Dom. Cons.": 54557.0,
+     "Imports": 13710.0,
+     "Industrial Dom. Cons.": 18962.0,
+     "Production": 75286.0
+    }
+   }
+  },
+  "Sunflower oil": {
+   "Argentina": {
+    "2015": {
+     "Domestic Consumption": 622.0,
+     "Ending Stocks": 334.0,
+     "Exports": 605.0,
+     "Food Use Dom. Cons.": 600.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2.0,
+     "Production": 1170.0
+    },
+    "2016": {
+     "Domestic Consumption": 612.0,
+     "Ending Stocks": 291.0,
+     "Exports": 766.0,
+     "Food Use Dom. Cons.": 590.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2.0,
+     "Production": 1335.0
+    },
+    "2017": {
+     "Domestic Consumption": 607.0,
+     "Ending Stocks": 286.0,
+     "Exports": 783.0,
+     "Food Use Dom. Cons.": 585.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2.0,
+     "Production": 1385.0
+    },
+    "2018": {
+     "Domestic Consumption": 582.0,
+     "Ending Stocks": 303.0,
+     "Exports": 854.0,
+     "Food Use Dom. Cons.": 570.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2.0,
+     "Production": 1453.0
+    },
+    "2019": {
+     "Domestic Consumption": 582.0,
+     "Ending Stocks": 346.0,
+     "Exports": 558.0,
+     "Food Use Dom. Cons.": 570.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2.0,
+     "Production": 1183.0
+    },
+    "2020": {
+     "Domestic Consumption": 592.0,
+     "Ending Stocks": 275.0,
+     "Exports": 829.0,
+     "Food Use Dom. Cons.": 580.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2.0,
+     "Production": 1350.0
+    },
+    "2021": {
+     "Domestic Consumption": 602.0,
+     "Ending Stocks": 344.0,
+     "Exports": 873.0,
+     "Food Use Dom. Cons.": 590.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2.0,
+     "Production": 1544.0
+    },
+    "2022": {
+     "Domestic Consumption": 652.0,
+     "Ending Stocks": 331.0,
+     "Exports": 1115.0,
+     "Food Use Dom. Cons.": 640.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2.0,
+     "Production": 1754.0
+    },
+    "2023": {
+     "Domestic Consumption": 562.0,
+     "Ending Stocks": 244.0,
+     "Exports": 1198.0,
+     "Food Use Dom. Cons.": 550.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2.0,
+     "Production": 1673.0
+    },
+    "2024": {
+     "Domestic Consumption": 562.0,
+     "Ending Stocks": 116.0,
+     "Exports": 1686.0,
+     "Food Use Dom. Cons.": 550.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2.0,
+     "Production": 2120.0
+    },
+    "2025": {
+     "Domestic Consumption": 562.0,
+     "Ending Stocks": 150.0,
+     "Exports": 1925.0,
+     "Food Use Dom. Cons.": 560.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2.0,
+     "Production": 2521.0
+    },
+    "2026": {
+     "Domestic Consumption": 567.0,
+     "Ending Stocks": 207.0,
+     "Exports": 2050.0,
+     "Food Use Dom. Cons.": 565.0,
+     "Imports": 0.0,
+     "Industrial Dom. Cons.": 2.0,
+     "Production": 2674.0
+    }
+   },
+   "Brazil": {
+    "2015": {
+     "Domestic Consumption": 62.0,
+     "Ending Stocks": 2.0,
+     "Exports": 2.0,
+     "Food Use Dom. Cons.": 62.0,
+     "Imports": 27.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 27.0
+    },
+    "2016": {
+     "Domestic Consumption": 76.0,
+     "Ending Stocks": 12.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 76.0,
+     "Imports": 43.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 43.0
+    },
+    "2017": {
+     "Domestic Consumption": 96.0,
+     "Ending Stocks": 10.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 96.0,
+     "Imports": 37.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 57.0
+    },
+    "2018": {
+     "Domestic Consumption": 91.0,
+     "Ending Stocks": 8.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 91.0,
+     "Imports": 44.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 45.0
+    },
+    "2019": {
+     "Domestic Consumption": 90.0,
+     "Ending Stocks": 13.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 90.0,
+     "Imports": 62.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 33.0
+    },
+    "2020": {
+     "Domestic Consumption": 77.0,
+     "Ending Stocks": 6.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 77.0,
+     "Imports": 54.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 16.0
+    },
+    "2021": {
+     "Domestic Consumption": 50.0,
+     "Ending Stocks": 7.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 50.0,
+     "Imports": 34.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 18.0
+    },
+    "2022": {
+     "Domestic Consumption": 75.0,
+     "Ending Stocks": 7.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 75.0,
+     "Imports": 37.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 38.0
+    },
+    "2023": {
+     "Domestic Consumption": 80.0,
+     "Ending Stocks": 5.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 80.0,
+     "Imports": 47.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 31.0
+    },
+    "2024": {
+     "Domestic Consumption": 80.0,
+     "Ending Stocks": 5.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 80.0,
+     "Imports": 35.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 45.0
+    },
+    "2025": {
+     "Domestic Consumption": 85.0,
+     "Ending Stocks": 5.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 85.0,
+     "Imports": 40.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 45.0
+    },
+    "2026": {
+     "Domestic Consumption": 80.0,
+     "Ending Stocks": 5.0,
+     "Exports": 0.0,
+     "Food Use Dom. Cons.": 80.0,
+     "Imports": 35.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 45.0
+    }
+   },
+   "Canada": {
+    "2015": {
+     "Domestic Consumption": 21.0,
+     "Ending Stocks": 0.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 21.0,
+     "Imports": 22.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2016": {
+     "Domestic Consumption": 24.0,
+     "Ending Stocks": 0.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 24.0,
+     "Imports": 25.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2017": {
+     "Domestic Consumption": 24.0,
+     "Ending Stocks": 0.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 24.0,
+     "Imports": 25.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2018": {
+     "Domestic Consumption": 26.0,
+     "Ending Stocks": 2.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 26.0,
+     "Imports": 29.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2019": {
+     "Domestic Consumption": 30.0,
+     "Ending Stocks": 5.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 30.0,
+     "Imports": 34.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2020": {
+     "Domestic Consumption": 52.0,
+     "Ending Stocks": 5.0,
+     "Exports": 2.0,
+     "Food Use Dom. Cons.": 52.0,
+     "Imports": 54.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2021": {
+     "Domestic Consumption": 53.0,
+     "Ending Stocks": 5.0,
+     "Exports": 2.0,
+     "Food Use Dom. Cons.": 53.0,
+     "Imports": 55.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2022": {
+     "Domestic Consumption": 52.0,
+     "Ending Stocks": 3.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 52.0,
+     "Imports": 53.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2023": {
+     "Domestic Consumption": 55.0,
+     "Ending Stocks": 4.0,
+     "Exports": 5.0,
+     "Food Use Dom. Cons.": 55.0,
+     "Imports": 61.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2024": {
+     "Domestic Consumption": 48.0,
+     "Ending Stocks": 4.0,
+     "Exports": 4.0,
+     "Food Use Dom. Cons.": 48.0,
+     "Imports": 52.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2025": {
+     "Domestic Consumption": 41.0,
+     "Ending Stocks": 4.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 41.0,
+     "Imports": 44.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    },
+    "2026": {
+     "Domestic Consumption": 56.0,
+     "Ending Stocks": 4.0,
+     "Exports": 4.0,
+     "Food Use Dom. Cons.": 56.0,
+     "Imports": 60.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 0.0
+    }
+   },
+   "China": {
+    "2015": {
+     "Domestic Consumption": 1379.0,
+     "Ending Stocks": 0.0,
+     "Exports": 1.0,
+     "Food Use Dom. Cons.": 1379.0,
+     "Imports": 878.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 502.0
+    },
+    "2016": {
+     "Domestic Consumption": 1332.0,
+     "Ending Stocks": 0.0,
+     "Exports": 2.0,
+     "Food Use Dom. Cons.": 1332.0,
+     "Imports": 725.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 609.0
+    },
+    "2017": {
+     "Domestic Consumption": 1428.0,
+     "Ending Stocks": 0.0,
+     "Exports": 2.0,
+     "Food Use Dom. Cons.": 1428.0,
+     "Imports": 785.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 645.0
+    },
+    "2018": {
+     "Domestic Consumption": 1496.0,
+     "Ending Stocks": 0.0,
+     "Exports": 2.0,
+     "Food Use Dom. Cons.": 1496.0,
+     "Imports": 1032.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 466.0
+    },
+    "2019": {
+     "Domestic Consumption": 2176.0,
+     "Ending Stocks": 0.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 2176.0,
+     "Imports": 1749.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 430.0
+    },
+    "2020": {
+     "Domestic Consumption": 2067.0,
+     "Ending Stocks": 0.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 2067.0,
+     "Imports": 1640.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 430.0
+    },
+    "2021": {
+     "Domestic Consumption": 955.0,
+     "Ending Stocks": 0.0,
+     "Exports": 6.0,
+     "Food Use Dom. Cons.": 955.0,
+     "Imports": 513.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 448.0
+    },
+    "2022": {
+     "Domestic Consumption": 1803.0,
+     "Ending Stocks": 0.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 1803.0,
+     "Imports": 1555.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 251.0
+    },
+    "2023": {
+     "Domestic Consumption": 1419.0,
+     "Ending Stocks": 0.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 1419.0,
+     "Imports": 1207.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 215.0
+    },
+    "2024": {
+     "Domestic Consumption": 717.0,
+     "Ending Stocks": 0.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 717.0,
+     "Imports": 532.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 188.0
+    },
+    "2025": {
+     "Domestic Consumption": 825.0,
+     "Ending Stocks": 0.0,
+     "Exports": 4.0,
+     "Food Use Dom. Cons.": 825.0,
+     "Imports": 599.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 230.0
+    },
+    "2026": {
+     "Domestic Consumption": 1411.0,
+     "Ending Stocks": 0.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 1411.0,
+     "Imports": 1150.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 264.0
+    }
+   },
+   "European Union": {
+    "2015": {
+     "Domestic Consumption": 4180.0,
+     "Ending Stocks": 158.0,
+     "Exports": 374.0,
+     "Food Use Dom. Cons.": 3750.0,
+     "Imports": 1418.0,
+     "Industrial Dom. Cons.": 420.0,
+     "Production": 3042.0
+    },
+    "2016": {
+     "Domestic Consumption": 4260.0,
+     "Ending Stocks": 354.0,
+     "Exports": 653.0,
+     "Food Use Dom. Cons.": 3800.0,
+     "Imports": 1720.0,
+     "Industrial Dom. Cons.": 450.0,
+     "Production": 3335.0
+    },
+    "2017": {
+     "Domestic Consumption": 4533.0,
+     "Ending Stocks": 258.0,
+     "Exports": 787.0,
+     "Food Use Dom. Cons.": 4050.0,
+     "Imports": 1469.0,
+     "Industrial Dom. Cons.": 470.0,
+     "Production": 3755.0
+    },
+    "2018": {
+     "Domestic Consumption": 4763.0,
+     "Ending Stocks": 372.0,
+     "Exports": 678.0,
+     "Food Use Dom. Cons.": 4250.0,
+     "Imports": 1884.0,
+     "Industrial Dom. Cons.": 500.0,
+     "Production": 3671.0
+    },
+    "2019": {
+     "Domestic Consumption": 4863.0,
+     "Ending Stocks": 648.0,
+     "Exports": 875.0,
+     "Food Use Dom. Cons.": 4350.0,
+     "Imports": 2369.0,
+     "Industrial Dom. Cons.": 500.0,
+     "Production": 3645.0
+    },
+    "2020": {
+     "Domestic Consumption": 4813.0,
+     "Ending Stocks": 211.0,
+     "Exports": 683.0,
+     "Food Use Dom. Cons.": 4300.0,
+     "Imports": 1599.0,
+     "Industrial Dom. Cons.": 500.0,
+     "Production": 3460.0
+    },
+    "2021": {
+     "Domestic Consumption": 5287.0,
+     "Ending Stocks": 647.0,
+     "Exports": 849.0,
+     "Food Use Dom. Cons.": 4750.0,
+     "Imports": 2178.0,
+     "Industrial Dom. Cons.": 525.0,
+     "Production": 4394.0
+    },
+    "2022": {
+     "Domestic Consumption": 5213.0,
+     "Ending Stocks": 293.0,
+     "Exports": 1258.0,
+     "Food Use Dom. Cons.": 4650.0,
+     "Imports": 2103.0,
+     "Industrial Dom. Cons.": 550.0,
+     "Production": 4014.0
+    },
+    "2023": {
+     "Domestic Consumption": 5513.0,
+     "Ending Stocks": 699.0,
+     "Exports": 990.0,
+     "Food Use Dom. Cons.": 4950.0,
+     "Imports": 3022.0,
+     "Industrial Dom. Cons.": 550.0,
+     "Production": 3887.0
+    },
+    "2024": {
+     "Domestic Consumption": 5213.0,
+     "Ending Stocks": 418.0,
+     "Exports": 691.0,
+     "Food Use Dom. Cons.": 4725.0,
+     "Imports": 2411.0,
+     "Industrial Dom. Cons.": 475.0,
+     "Production": 3212.0
+    },
+    "2025": {
+     "Domestic Consumption": 4938.0,
+     "Ending Stocks": 379.0,
+     "Exports": 700.0,
+     "Food Use Dom. Cons.": 4450.0,
+     "Imports": 2300.0,
+     "Industrial Dom. Cons.": 475.0,
+     "Production": 3299.0
+    },
+    "2026": {
+     "Domestic Consumption": 5488.0,
+     "Ending Stocks": 487.0,
+     "Exports": 850.0,
+     "Food Use Dom. Cons.": 4925.0,
+     "Imports": 2600.0,
+     "Industrial Dom. Cons.": 550.0,
+     "Production": 3846.0
+    }
+   },
+   "India": {
+    "2015": {
+     "Domestic Consumption": 1665.0,
+     "Ending Stocks": 264.0,
+     "Exports": 3.0,
+     "Food Use Dom. Cons.": 1665.0,
+     "Imports": 1492.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 105.0
+    },
+    "2016": {
+     "Domestic Consumption": 2000.0,
+     "Ending Stocks": 516.0,
+     "Exports": 4.0,
+     "Food Use Dom. Cons.": 2000.0,
+     "Imports": 2151.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 105.0
+    },
+    "2017": {
+     "Domestic Consumption": 2500.0,
+     "Ending Stocks": 563.0,
+     "Exports": 4.0,
+     "Food Use Dom. Cons.": 2500.0,
+     "Imports": 2476.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 75.0
+    },
+    "2018": {
+     "Domestic Consumption": 2550.0,
+     "Ending Stocks": 395.0,
+     "Exports": 4.0,
+     "Food Use Dom. Cons.": 2550.0,
+     "Imports": 2328.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 58.0
+    },
+    "2019": {
+     "Domestic Consumption": 2560.0,
+     "Ending Stocks": 390.0,
+     "Exports": 4.0,
+     "Food Use Dom. Cons.": 2560.0,
+     "Imports": 2514.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 45.0
+    },
+    "2020": {
+     "Domestic Consumption": 2250.0,
+     "Ending Stocks": 143.0,
+     "Exports": 4.0,
+     "Food Use Dom. Cons.": 2250.0,
+     "Imports": 1958.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 49.0
+    },
+    "2021": {
+     "Domestic Consumption": 1900.0,
+     "Ending Stocks": 230.0,
+     "Exports": 10.0,
+     "Food Use Dom. Cons.": 1900.0,
+     "Imports": 1956.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 41.0
+    },
+    "2022": {
+     "Domestic Consumption": 2750.0,
+     "Ending Stocks": 530.0,
+     "Exports": 9.0,
+     "Food Use Dom. Cons.": 2750.0,
+     "Imports": 2988.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 71.0
+    },
+    "2023": {
+     "Domestic Consumption": 3525.0,
+     "Ending Stocks": 534.0,
+     "Exports": 23.0,
+     "Food Use Dom. Cons.": 3525.0,
+     "Imports": 3516.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 36.0
+    },
+    "2024": {
+     "Domestic Consumption": 2900.0,
+     "Ending Stocks": 522.0,
+     "Exports": 55.0,
+     "Food Use Dom. Cons.": 2900.0,
+     "Imports": 2905.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 38.0
+    },
+    "2025": {
+     "Domestic Consumption": 3070.0,
+     "Ending Stocks": 400.0,
+     "Exports": 90.0,
+     "Food Use Dom. Cons.": 3070.0,
+     "Imports": 3000.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 38.0
+    },
+    "2026": {
+     "Domestic Consumption": 3630.0,
+     "Ending Stocks": 598.0,
+     "Exports": 60.0,
+     "Food Use Dom. Cons.": 3630.0,
+     "Imports": 3850.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 38.0
+    }
+   },
+   "United States": {
+    "2015": {
+     "Domestic Consumption": 197.0,
+     "Ending Stocks": 34.0,
+     "Exports": 39.0,
+     "Food Use Dom. Cons.": 197.0,
+     "Imports": 42.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 205.0
+    },
+    "2016": {
+     "Domestic Consumption": 226.0,
+     "Ending Stocks": 41.0,
+     "Exports": 32.0,
+     "Food Use Dom. Cons.": 226.0,
+     "Imports": 54.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 211.0
+    },
+    "2017": {
+     "Domestic Consumption": 238.0,
+     "Ending Stocks": 33.0,
+     "Exports": 40.0,
+     "Food Use Dom. Cons.": 238.0,
+     "Imports": 73.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 197.0
+    },
+    "2018": {
+     "Domestic Consumption": 223.0,
+     "Ending Stocks": 19.0,
+     "Exports": 55.0,
+     "Food Use Dom. Cons.": 223.0,
+     "Imports": 60.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 204.0
+    },
+    "2019": {
+     "Domestic Consumption": 289.0,
+     "Ending Stocks": 22.0,
+     "Exports": 40.0,
+     "Food Use Dom. Cons.": 289.0,
+     "Imports": 169.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 163.0
+    },
+    "2020": {
+     "Domestic Consumption": 297.0,
+     "Ending Stocks": 26.0,
+     "Exports": 45.0,
+     "Food Use Dom. Cons.": 297.0,
+     "Imports": 134.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 212.0
+    },
+    "2021": {
+     "Domestic Consumption": 328.0,
+     "Ending Stocks": 29.0,
+     "Exports": 56.0,
+     "Food Use Dom. Cons.": 328.0,
+     "Imports": 204.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 183.0
+    },
+    "2022": {
+     "Domestic Consumption": 282.0,
+     "Ending Stocks": 39.0,
+     "Exports": 33.0,
+     "Food Use Dom. Cons.": 282.0,
+     "Imports": 152.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 173.0
+    },
+    "2023": {
+     "Domestic Consumption": 313.0,
+     "Ending Stocks": 26.0,
+     "Exports": 26.0,
+     "Food Use Dom. Cons.": 313.0,
+     "Imports": 167.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 159.0
+    },
+    "2024": {
+     "Domestic Consumption": 309.0,
+     "Ending Stocks": 16.0,
+     "Exports": 25.0,
+     "Food Use Dom. Cons.": 309.0,
+     "Imports": 172.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 152.0
+    },
+    "2025": {
+     "Domestic Consumption": 305.0,
+     "Ending Stocks": 18.0,
+     "Exports": 15.0,
+     "Food Use Dom. Cons.": 305.0,
+     "Imports": 133.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 189.0
+    },
+    "2026": {
+     "Domestic Consumption": 335.0,
+     "Ending Stocks": 18.0,
+     "Exports": 18.0,
+     "Food Use Dom. Cons.": 335.0,
+     "Imports": 172.0,
+     "Industrial Dom. Cons.": 0.0,
+     "Production": 181.0
+    }
+   },
+   "World": {
+    "2015": {
+     "Domestic Consumption": 15073.0,
+     "Ending Stocks": 2038.0,
+     "Exports": 8206.0,
+     "Food Use Dom. Cons.": 14156.0,
+     "Imports": 7323.0,
+     "Industrial Dom. Cons.": 847.0,
+     "Production": 15404.0
+    },
+    "2016": {
+     "Domestic Consumption": 16366.0,
+     "Ending Stocks": 2616.0,
+     "Exports": 10752.0,
+     "Food Use Dom. Cons.": 15411.0,
+     "Imports": 9314.0,
+     "Industrial Dom. Cons.": 880.0,
+     "Production": 18298.0
+    },
+    "2017": {
+     "Domestic Consumption": 17403.0,
+     "Ending Stocks": 2606.0,
+     "Exports": 10324.0,
+     "Food Use Dom. Cons.": 16415.0,
+     "Imports": 9149.0,
+     "Industrial Dom. Cons.": 905.0,
+     "Production": 18568.0
+    },
+    "2018": {
+     "Domestic Consumption": 18020.0,
+     "Ending Stocks": 2443.0,
+     "Exports": 11513.0,
+     "Food Use Dom. Cons.": 17009.0,
+     "Imports": 9752.0,
+     "Industrial Dom. Cons.": 938.0,
+     "Production": 19618.0
+    },
+    "2019": {
+     "Domestic Consumption": 18912.0,
+     "Ending Stocks": 2997.0,
+     "Exports": 13485.0,
+     "Food Use Dom. Cons.": 17901.0,
+     "Imports": 11746.0,
+     "Industrial Dom. Cons.": 928.0,
+     "Production": 21205.0
+    },
+    "2020": {
+     "Domestic Consumption": 18259.0,
+     "Ending Stocks": 2112.0,
+     "Exports": 11338.0,
+     "Food Use Dom. Cons.": 17226.0,
+     "Imports": 9707.0,
+     "Industrial Dom. Cons.": 955.0,
+     "Production": 19005.0
+    },
+    "2021": {
+     "Domestic Consumption": 17524.0,
+     "Ending Stocks": 2761.0,
+     "Exports": 11220.0,
+     "Food Use Dom. Cons.": 16425.0,
+     "Imports": 9714.0,
+     "Industrial Dom. Cons.": 1017.0,
+     "Production": 19679.0
+    },
+    "2022": {
+     "Domestic Consumption": 19550.0,
+     "Ending Stocks": 3223.0,
+     "Exports": 14313.0,
+     "Food Use Dom. Cons.": 18386.0,
+     "Imports": 12613.0,
+     "Industrial Dom. Cons.": 1076.0,
+     "Production": 21712.0
+    },
+    "2023": {
+     "Domestic Consumption": 21068.0,
+     "Ending Stocks": 2891.0,
+     "Exports": 15343.0,
+     "Food Use Dom. Cons.": 19893.0,
+     "Imports": 13960.0,
+     "Industrial Dom. Cons.": 1087.0,
+     "Production": 22119.0
+    },
+    "2024": {
+     "Domestic Consumption": 19102.0,
+     "Ending Stocks": 2547.0,
+     "Exports": 13662.0,
+     "Food Use Dom. Cons.": 18002.0,
+     "Imports": 12006.0,
+     "Industrial Dom. Cons.": 1012.0,
+     "Production": 20414.0
+    },
+    "2025": {
+     "Domestic Consumption": 19056.0,
+     "Ending Stocks": 2381.0,
+     "Exports": 13586.0,
+     "Food Use Dom. Cons.": 17966.0,
+     "Imports": 11361.0,
+     "Industrial Dom. Cons.": 1012.0,
+     "Production": 21115.0
+    },
+    "2026": {
+     "Domestic Consumption": 21766.0,
+     "Ending Stocks": 2835.0,
+     "Exports": 15723.0,
+     "Food Use Dom. Cons.": 20601.0,
+     "Imports": 14193.0,
+     "Industrial Dom. Cons.": 1087.0,
+     "Production": 23750.0
+    }
+   }
+  }
+ }
+}
