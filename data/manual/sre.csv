@@ -1,0 +1,5 @@
+decision_date,compliance_years,petitions,granted_full,granted_partial,denied,ineligible,rins_exempted_bn,status
+2025-08-22,2016-2024,175,63,77,28,7,5.34,decided
+2025-11-07,2021-2024,16,2,12,2,0,,decided
+2026-08-31,2025,34,18,11,3,2,1.76,decided
+2026-10-13,2025 overshoot reallocation (0.77 bn RINs),,,,,,0.77,proposed; comments close 2026-12-04

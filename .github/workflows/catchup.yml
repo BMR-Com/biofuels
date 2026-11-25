@@ -1,0 +1,20 @@
+name: catch-up
+# Once a day: rerun any feed whose last run failed or whose data is later than its cadence allows (pipelines/catchup.py).
+on:
+  schedule:
+    - cron: '43 2 * * *'
+  workflow_dispatch: {}
+permissions: {contents: write, actions: write}
+concurrency: {group: catch-up, cancel-in-progress: false}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install -q requests
+      - env: {GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'}
+        run: python pipelines/catchup.py
+      - run: pipelines/commit.sh "catch-up: $(date -u +%F)"

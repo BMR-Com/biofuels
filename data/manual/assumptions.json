@@ -1,0 +1,22 @@
+{
+ "_note": "Inputs for models/economics.py. Prices come from data feeds; these are the physical and policy constants. Edit here, not in code.",
+ "lb_per_gal": {"BD": 7.5, "RD": 8.3, "SAF": 9.0},
+ "ev": {"BD": 1.5, "RD_2026": 1.7, "RD_2027": 1.5, "SAF_2026": 1.6, "SAF_2027": 1.5},
+ "energy_mj_per_gal": {"BD": 126.13, "RD": 129.65, "SAF": 126.37, "ULSD": 134.47},
+ "lcfs": {"diesel_ci_std_2026": 80.17, "jet_ci_std_2026": 80.17, "eer": 1.0},
+ "z45": {"max_per_gal": 1.0, "inflation_factor": 1.065, "threshold": 50, "north_american_only_from": 2026},
+ "opex_per_gal": {"BD": 0.50, "RD": 0.70, "SAF": 0.90},
+ "coproduct_per_gal": {"BD": 0.075, "RD": 0.10, "SAF": 0.25},
+ "feedstock_fallback_vs_zl_c_lb": {"canola": 4.0, "dco": -6.0, "tallow": -8.0, "uco": -10.0},
+ "pathways": [
+  {"id": "soy_bd",    "label": "Soybean oil biodiesel",        "fuel": "BD", "feed": "soybean", "ci_carb": 55, "ci_45z": 27, "na_feed": true},
+  {"id": "soy_rd",    "label": "Soybean oil renewable diesel", "fuel": "RD", "feed": "soybean", "ci_carb": 56, "ci_45z": 27, "na_feed": true},
+  {"id": "canola_rd", "label": "Canola oil renewable diesel",  "fuel": "RD", "feed": "canola",  "ci_carb": 50, "ci_45z": 26, "na_feed": true},
+  {"id": "dco_rd",    "label": "Distillers corn oil RD",       "fuel": "RD", "feed": "dco",     "ci_carb": 25, "ci_45z": 10, "na_feed": true},
+  {"id": "tallow_rd", "label": "Tallow renewable diesel",      "fuel": "RD", "feed": "tallow",  "ci_carb": 37, "ci_45z": 13, "na_feed": true},
+  {"id": "uco_rd",    "label": "Domestic UCO renewable diesel","fuel": "RD", "feed": "uco",     "ci_carb": 22, "ci_45z": 9,  "na_feed": true},
+  {"id": "uco_imp_rd","label": "Imported UCO renewable diesel","fuel": "RD", "feed": "uco",     "ci_carb": 22, "ci_45z": 9,  "na_feed": false},
+  {"id": "soy_saf",   "label": "Soybean oil SAF (HEFA)",       "fuel": "SAF","feed": "soybean", "ci_carb": 56, "ci_45z": 27, "na_feed": true}
+ ],
+ "ci_note": "CARB CI = typical certified CA-GREET pathway incl. ILUC (gCO2e/MJ). 45Z CI = desk estimate in kg CO2e/mmBtu ex-ILUC, from the soybean oil value (~27) and published feedstock premiums; replace with the IRS emissions-rate table values when final."
+}

@@ -1,0 +1,12 @@
+requests
+pandas
+numpy
+openpyxl
+xlrd
+pdfplumber
+lxml
+html5lib
+beautifulsoup4
+markdown
+websocket-client
+tvdatafeed @ git+https://github.com/rongardF/tvdatafeed.git

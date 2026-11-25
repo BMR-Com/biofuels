@@ -1,0 +1,56 @@
+name: monthly
+# Monthly releases, run only on the days they usually land:
+#   EPA EMTS RIN generation (mid-month), CARB/Oregon/Washington credit reports (mid-month),
+#   EIA Monthly Biofuels Capacity and Feedstocks + Monthly Energy Review (end of month), WASDE + FAS PSD (~10th-12th).
+# Each step is light; the catch-up job reruns a step that failed or whose data is late.
+on:
+  schedule:
+    - cron: '20 16 16,19,22 * *'   # EPA EMTS + clean-fuel credit reports
+    - cron: '20 16 28 * *'         # EIA feedstocks/capacity, MER
+    - cron: '20 16 2 * *'          # EIA second chance
+    - cron: '30 17 10,12 * *'      # WASDE (noon ET) + PSD
+  workflow_dispatch:
+    inputs:
+      only: {description: 'epa | credits | eia | usda | all', default: all}
+permissions: {contents: write}
+concurrency: {group: data-commit, cancel-in-progress: false}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11', cache: pip}
+      - run: pip install -q -r requirements.txt
+      - id: pick
+        run: |
+          o="${{ inputs.only }}"; d=$(date -u +%-d)
+          if [ -z "$o" ]; then
+            case $d in 16|19|22) o="epa,credits";; 28|2) o="eia";; 10|12) o="usda";; *) o="all";; esac
+          fi
+          echo "only=$o" >> "$GITHUB_OUTPUT"; echo "running: $o"
+      - name: EPA EMTS
+        if: contains(steps.pick.outputs.only, 'epa') || steps.pick.outputs.only == 'all'
+        continue-on-error: true
+        run: python pipelines/epa_emts.py
+      - name: LCFS / CFP / CFS credits
+        if: contains(steps.pick.outputs.only, 'credits') || steps.pick.outputs.only == 'all'
+        continue-on-error: true
+        run: python pipelines/lcfs.py
+      - name: EIA monthly
+        if: contains(steps.pick.outputs.only, 'eia') || steps.pick.outputs.only == 'all'
+        continue-on-error: true
+        run: python pipelines/eia.py feedstocks capacity mer spot
+      - name: WASDE + PSD
+        if: contains(steps.pick.outputs.only, 'usda') || steps.pick.outputs.only == 'all'
+        continue-on-error: true
+        run: |
+          python pipelines/wasde.py
+          python pipelines/psd.py
+      - name: refresh models
+        continue-on-error: true
+        run: |
+          python models/economics.py
+          python models/balance.py
+      - run: pipelines/commit.sh "monthly: $(date -u +%F) ${{ steps.pick.outputs.only }}"

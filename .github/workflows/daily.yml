@@ -1,0 +1,34 @@
+name: daily
+# Weekday close: TradingView prices (soybean complex, ULSD, RIN and LCFS futures, palm, canola, UCO), then the
+# economics and mandate-balance models; headlines and policy pages ride along (both are light).
+on:
+  schedule:
+    - cron: '35 22 * * 1-5'   # after the CME settlement (~17:35 ET)
+  workflow_dispatch:
+    inputs:
+      only: {description: 'prices | news | all', default: all}
+permissions: {contents: write}
+concurrency: {group: data-commit, cancel-in-progress: false}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11', cache: pip}
+      - run: pip install -q -r requirements.txt
+      - name: prices + models
+        if: inputs.only == '' || inputs.only == 'all' || inputs.only == 'prices'
+        continue-on-error: true
+        run: |
+          python pipelines/prices.py
+          python models/economics.py
+          python models/balance.py
+      - name: news + policy
+        if: inputs.only == '' || inputs.only == 'all' || inputs.only == 'news'
+        continue-on-error: true
+        run: |
+          python pipelines/news.py
+          python pipelines/policy_watch.py
+      - run: pipelines/commit.sh "daily: $(date -u +%F)"

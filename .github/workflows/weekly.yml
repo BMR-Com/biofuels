@@ -1,0 +1,36 @@
+name: weekly
+# Weekly reports: USDA AMS cash fats/oils and biofuel feedstocks (Friday reports), CARB weekly LCFS credit average,
+# EIA weekly spot ULSD/jet. Saturday morning, after Friday's releases.
+on:
+  schedule:
+    - cron: '0 14 * * 6'
+  workflow_dispatch:
+    inputs:
+      only: {description: 'ams | carb | spot | all', default: all}
+permissions: {contents: write}
+concurrency: {group: data-commit, cancel-in-progress: false}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11', cache: pip}
+      - run: pip install -q -r requirements.txt
+      - name: USDA AMS cash
+        if: inputs.only == '' || inputs.only == 'all' || inputs.only == 'ams'
+        continue-on-error: true
+        run: python pipelines/ams.py
+      - name: CARB LCFS (weekly + monthly check)
+        if: inputs.only == '' || inputs.only == 'all' || inputs.only == 'carb'
+        continue-on-error: true
+        run: python pipelines/lcfs.py
+      - name: EIA spot
+        if: inputs.only == '' || inputs.only == 'all' || inputs.only == 'spot'
+        continue-on-error: true
+        run: python pipelines/eia.py spot
+      - name: refresh model
+        continue-on-error: true
+        run: python models/economics.py
+      - run: pipelines/commit.sh "weekly: $(date -u +%F)"

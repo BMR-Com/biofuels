@@ -1,0 +1,18 @@
+date,area,event,status,market_read
+2025-06-13,RFS,EPA proposes 2026-27 RVOs (BBD 7.12/7.50 bn RINs) and 50% RIN cut for imported fuel and foreign feedstock,superseded,bullish domestic soybean oil; bearish imported UCO/tallow
+2025-07-01,LCFS,California LCFS amendments take effect (2025 step-down to 22.75% CI cut; 30% by 2030),in force,tighter credit balance over time
+2025-07-04,45Z,OBBBA extends 45Z through 2029; removes ILUC; North American feedstock only from 2026; SAF premium ends 2026,in force,lifts soybean/canola oil CI value; cuts imported waste-oil value
+2025-08-22,SRE,EPA decides 175 backlog petitions; ~5.34 bn RINs exempted,decided,bearish RINs short term
+2026-02-04,45Z,Treasury/IRS proposed 45Z regulations published (reliance allowed),proposed,
+2026-03-27,RFS,EPA signs Set 2 final rule: BBD 9.07 bn (2026) / 9.20 bn (2027) RINs incl. 70% reallocation of 2023-25 SREs; half-RIN deferred,final,strongly bullish D4 and soybean oil demand
+2026-04-01,RFS,Set 2 published in Federal Register; RD and jet EV fall to 1.5 from 2027,final,more gallons per RIN in 2027 favours biodiesel
+2026-06-01,RFS,Set 2 challenged in D.C. Circuit (AFPM and others; consolidated),pending,tail risk to volumes
+2026-08-31,SRE,EPA grants 2025 SREs: 1.76 bn RINs for 29 refineries,decided,bearish RINs unless reallocated
+2026-09-08,45Z,IRS Notice 2026-53 sets 2026 emissions-rate table and FD-CIC,in force,soybean oil ~27 kg/mmBtu (~49c/gal)
+2026-10-13,SRE,EPA proposes 100% reallocation of the 0.77 bn RIN 2025 overshoot (split 2026/27 or all in 2027),proposed,bullish D4 if final
+2026-12-04,SRE,Comment deadline on 2025 SRE reallocation proposal,upcoming,
+2026-11-30,45Z,Final 45Z regulations targeted (OMB agenda: November 2026),pending,
+2027-01-01,RFS,RD and renewable jet EV 1.7/1.6 -> 1.5; naphtha 1.4,scheduled,
+2027-05-15,LCFS,Earliest possible LCFS automatic acceleration trigger,scheduled,bullish LCFS credit if triggered
+2028-01-01,LCFS,LCFS 20% cap on crop-oil (soy/canola/sunflower) BBD credits; third-party sustainability certification,scheduled,bearish crop oils into California
+2028-01-01,RFS,Import RIN reduction (half-RIN) expected in Set 3,expected,key risk for imported feedstocks

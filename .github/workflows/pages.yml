@@ -1,0 +1,29 @@
+name: pages
+# Publishes _site/ (pipelines/build_site.py): the page, its assets and the published JSON only. No code, no raw files,
+# no run logs and no model assumptions go to the public site. Runs after each data workflow, on code pushes, or by hand.
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: [daily, weekly, monthly]
+    types: [completed]
+permissions: {contents: read, pages: write, id-token: write}
+concurrency: {group: pages, cancel-in-progress: true}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: {name: github-pages, url: '${{ steps.dep.outputs.page_url }}'}
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install -q markdown
+      - run: python pipelines/build_site.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: _site}
+      - id: dep
+        uses: actions/deploy-pages@v4
