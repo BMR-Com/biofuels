@@ -119,9 +119,9 @@
    "z45_per_gal": 0.852,
    "lcfs_per_gal": 0.599,
    "coproduct": 0.1,
-   "margin_ex_ca": 2.971,
-   "margin_ca": 3.57,
-   "breakeven_d4_ex_ca": 0.256,
+   "margin_ex_ca": 1.878,
+   "margin_ca": 2.477,
+   "breakeven_d4_ex_ca": 0.899,
    "ci_carb": 25,
    "ci_45z": 10
   },
@@ -159,9 +159,9 @@
    "z45_per_gal": 0.873,
    "lcfs_per_gal": 0.632,
    "coproduct": 0.1,
-   "margin_ex_ca": 3.324,
-   "margin_ca": 3.956,
-   "breakeven_d4_ex_ca": 0.048,
+   "margin_ex_ca": 3.642,
+   "margin_ca": 4.274,
+   "breakeven_d4_ex_ca": -0.139,
    "ci_carb": 22,
    "ci_45z": 9
   },
@@ -179,9 +179,9 @@
    "z45_per_gal": 0.0,
    "lcfs_per_gal": 0.632,
    "coproduct": 0.1,
-   "margin_ex_ca": 2.451,
-   "margin_ca": 3.082,
-   "breakeven_d4_ex_ca": 0.562,
+   "margin_ex_ca": 2.769,
+   "margin_ca": 3.4,
+   "breakeven_d4_ex_ca": 0.375,
    "ci_carb": 22,
    "ci_45z": 9
   },
@@ -281,9 +281,9 @@
    "z45_per_gal": 0.852,
    "lcfs_per_gal": 0.599,
    "coproduct": 0.1,
-   "margin_ex_ca": 2.57,
-   "margin_ca": 3.169,
-   "breakeven_d4_ex_ca": 0.29,
+   "margin_ex_ca": 1.477,
+   "margin_ca": 2.076,
+   "breakeven_d4_ex_ca": 1.019,
    "ci_carb": 25,
    "ci_45z": 10
   },
@@ -321,9 +321,9 @@
    "z45_per_gal": 0.873,
    "lcfs_per_gal": 0.632,
    "coproduct": 0.1,
-   "margin_ex_ca": 2.923,
-   "margin_ca": 3.555,
-   "breakeven_d4_ex_ca": 0.055,
+   "margin_ex_ca": 3.241,
+   "margin_ca": 3.873,
+   "breakeven_d4_ex_ca": -0.157,
    "ci_carb": 22,
    "ci_45z": 9
   },
@@ -341,9 +341,9 @@
    "z45_per_gal": 0.0,
    "lcfs_per_gal": 0.632,
    "coproduct": 0.1,
-   "margin_ex_ca": 2.05,
-   "margin_ca": 2.682,
-   "breakeven_d4_ex_ca": 0.637,
+   "margin_ex_ca": 2.368,
+   "margin_ca": 3.0,
+   "breakeven_d4_ex_ca": 0.425,
    "ci_carb": 22,
    "ci_45z": 9
   },
@@ -64887,8 +64887,9 @@
  "read": [
   "BOHO is +0.72 $/gal; D4 x 1.5 = 3.01, so RINs cover the soybean oil premium to heating oil by 2.28 $/gal before 45Z and LCFS.",
   "D4 trades +0.132 over D6: a wide spread says biomass-based diesel, not ethanol, is the marginal RIN.",
-  "Best screen margin: Domestic UCO renewable diesel at +3.96 $/gal into California; weakest: Canola oil renewable diesel at +1.80 $/gal outside it.",
+  "Best screen margin: Domestic UCO renewable diesel at +4.27 $/gal into California; weakest: Canola oil renewable diesel at +1.80 $/gal outside it.",
   "Highest breakeven D4 is Canola oil renewable diesel at 0.94 vs D4 at 2.00: even the marginal pathway runs at screen prices.",
+  "Mandate: D4 generation through 2026-10 runs at 8.31 bn RINs a year vs a 9.07 bn biomass-based diesel obligation (-0.76 bn); the rest of the year needs 1.07 bn a month vs 0.69 so far, so the RIN has to keep paying for more gallons (or carryover RINs get drawn).",
   "Soybean oil biodiesel: +2.35 $/gal with 45Z of 0.49; breakeven D4 0.44."
  ]
 }

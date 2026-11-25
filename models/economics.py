@@ -149,6 +149,12 @@ def desk_read(i, rows):
         if d4:
             out.append(f"Highest breakeven D4 is {marg['label']} at {marg['breakeven_d4_ex_ca']:.2f} vs D4 at {d4:.2f}: "
                        + ("that capacity is under water and should be cutting runs." if marg["breakeven_d4_ex_ca"] > d4 else "even the marginal pathway runs at screen prices."))
+    y = ((read_json(DATA / "model" / "balance.json", {}) or {}).get("years") or {}).get(str(dt.date.today().year), {})
+    if y.get("D4_pace_vs_rvo_bn") is not None:
+        gap = y["D4_pace_vs_rvo_bn"]
+        out.append(f"Mandate: D4 generation through {y['D4_last']} runs at {y['D4_pace_full_year_bn']:.2f} bn RINs a year vs a {y['rvo_bbd']:.2f} bn "
+                   f"biomass-based diesel obligation ({gap:+.2f} bn); the rest of the year needs {y['D4_needed_per_month_rest_bn']:.2f} bn a month vs "
+                   f"{y['D4_avg_month_ytd_bn']:.2f} so far" + (", so the RIN has to keep paying for more gallons (or carryover RINs get drawn)." if gap < 0 else ", so the mandate is covered and RINs have room to soften."))
     soy = next((r for r in rows if r["id"] == "soy_bd"), None)
     if soy:
         out.append(f"Soybean oil biodiesel: {soy['margin_ex_ca']:+.2f} $/gal with 45Z of {soy['z45_per_gal']:.2f}; breakeven D4 {soy['breakeven_d4_ex_ca']:.2f}.")
