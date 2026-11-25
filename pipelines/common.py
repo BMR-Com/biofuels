@@ -66,20 +66,23 @@ def now():
 
 
 def log_run(source, ok, asof=None, detail=""):
-    """One line per source per run in logs/runs.jsonl; data/status.json keeps the newest state per source."""
+    """One file per source so parallel workflows never overwrite each other's state:
+    logs/<source>.jsonl (history, repo only) and data/status/<source>.json (newest state; not published)."""
     LOGS.mkdir(exist_ok=True)
     rec = {"t": now(), "source": source, "ok": bool(ok), "asof": asof, "detail": str(detail)[:300]}
-    with open(LOGS / "runs.jsonl", "a") as f:
+    with open(LOGS / f"{source}.jsonl", "a") as f:
         f.write(json.dumps(rec) + "\n")
-    st = read_json(DATA / "status.json", {}) or {}
-    prev = st.get(source, {})
-    st[source] = {"checked": rec["t"], "ok": rec["ok"],
-                  "asof": asof if asof else prev.get("asof"),
-                  "last_ok": rec["t"] if ok else prev.get("last_ok"),
-                  "detail": "" if ok else rec["detail"][:160]}
-    write_json(DATA / "status.json", st)
-    print(("OK  " if ok else "FAIL"), source, asof or "", detail if not ok else "")
+    sp = DATA / "status" / f"{source}.json"
+    prev = read_json(sp, {}) or {}
+    write_json(sp, {"checked": rec["t"], "ok": rec["ok"],
+                    "asof": asof if asof else prev.get("asof"),
+                    "last_ok": rec["t"] if ok else prev.get("last_ok"),
+                    "detail": "" if ok else rec["detail"][:160]})
 
+
+def status():
+    """All sources' newest state, {source: {...}}."""
+    return {f.stem: read_json(f, {}) for f in sorted((DATA / "status").glob("*.json"))}
 
 def run(source, fn):
     """Call fn() -> asof string; log success/failure; never raise (so one source can't stop the others)."""

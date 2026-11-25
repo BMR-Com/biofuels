@@ -85,11 +85,11 @@ def next_contracts(months, n, today):
 
 
 def settled(d):
-    """Drop today's bar until the US settle (~14:30 CT) has passed, so a mid-session print is never stored."""
+    """Keep only bars for trade dates whose US settle (~14:30 CT) has passed: the evening session that opens at
+    17:00 CT is stamped with the next trade date and must not be stored as a close."""
     now = pd.Timestamp.now(tz="America/Chicago")
-    if now.hour < 15 and len(d) and d.index[-1].date() >= now.date():
-        return d.iloc[:-1]
-    return d
+    cut = now.date() if now.hour >= 15 else (now - pd.Timedelta(days=1)).date()
+    return d[[x.date() <= cut for x in d.index]]
 
 
 def fetch_all():

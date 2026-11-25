@@ -84,34 +84,29 @@ def ca_weekly(state):
 
 
 def xlsx_month_price(b):
-    """Find a table with a month column and an average price column; return [[YYYY-MM, price, volume]]."""
+    """Oregon CFP and Washington CFS workbooks: sheet 'Monthly Credit Transfer Summary' with columns
+    Year (only on each year's first row) | Month | Total Credits | Total Credit Value | Avg. Price per Credit.
+    Returns [[YYYY-MM, avg price $/t, credits]] oldest first."""
     xl = pd.ExcelFile(io.BytesIO(b))
-    best = []
-    for sh in xl.sheet_names:
-        raw = xl.parse(sh, header=None)
-        for i in range(min(40, len(raw))):
-            hdr = [str(x).lower() for x in raw.iloc[i]]
-            pc = next((j for j, h in enumerate(hdr) if "price" in h and ("average" in h or "avg" in h or "weighted" in h)), None)
-            if pc is None:
-                continue
-            vc = next((j for j, h in enumerate(hdr) if ("credit" in h or "volume" in h) and j != pc and "price" not in h), None)
-            rows = []
-            for _, r in raw.iloc[i + 1:].iterrows():
-                d = pd.to_datetime(str(r.iloc[0]), errors="coerce")
-                if pd.isna(d):
-                    mm = re.match(r"([A-Za-z]{3})[a-z]*[-\s']+(\d{2,4})", str(r.iloc[0]))
-                    if not mm or mm.group(1).lower() not in MABBR:
-                        continue
-                    y = int(mm.group(2)); y = y + 2000 if y < 100 else y
-                    d = pd.Timestamp(y, MABBR[mm.group(1).lower()], 1)
-                p = pd.to_numeric(str(r.iloc[pc]).replace("$", "").replace(",", ""), errors="coerce")
-                v = pd.to_numeric(str(r.iloc[vc]).replace(",", ""), errors="coerce") if vc is not None else None
-                if pd.notna(p) and 0 < p < 1000:
-                    rows.append([d.strftime("%Y-%m"), float(p), float(v) if v is not None and pd.notna(v) else None])
-            if len(rows) > len(best):
-                best = rows
-    return best
-
+    sh = next((x for x in xl.sheet_names if "monthly" in x.lower()), None)
+    if sh is None:
+        return []
+    raw = pd.read_excel(xl, sheet_name=sh, header=None)
+    hdr = next(i for i in range(min(10, len(raw))) if "month" in " ".join(map(str, raw.iloc[i])).lower())
+    cols = [str(x).lower() for x in raw.iloc[hdr]]
+    ci = {k: next(j for j, c in enumerate(cols) if k in c) for k in ("year", "month", "total credits", "avg")}
+    rows, year = [], None
+    for _, r in raw.iloc[hdr + 1:].iterrows():
+        y = pd.to_numeric(r.iloc[ci["year"]], errors="coerce")
+        if pd.notna(y):
+            year = int(y)
+        mn = str(r.iloc[ci["month"]]).strip().lower()[:3]
+        if year is None or mn not in MABBR:
+            continue
+        p = pd.to_numeric(r.iloc[ci["avg"]], errors="coerce"); v = pd.to_numeric(r.iloc[ci["total credits"]], errors="coerce")
+        if pd.notna(p) and 0 < p < 1000:
+            rows.append([f"{year}-{MABBR[mn]:02d}", round(float(p), 2), float(v) if pd.notna(v) else None])
+    return sorted(rows)
 
 def oregon(state):
     b = get(OR_XLSX, binary=True)
@@ -119,7 +114,7 @@ def oregon(state):
     rows = xlsx_month_price(b)
     if not rows:
         raise RuntimeError("no Oregon rows parsed")
-    state["or_monthly"] = merge(state.get("or_monthly"), rows)
+    state["or_monthly"] = rows   # the workbook holds the full history
     return state["or_monthly"][-1][0]
 
 
@@ -134,7 +129,7 @@ def washington(state):
         save_raw("washington", f"CFS_{y}{m:02d}.xlsx", b)
         rows = xlsx_month_price(b)
         if rows:
-            state["wa_monthly"] = merge(state.get("wa_monthly"), rows)
+            state["wa_monthly"] = rows
             return state["wa_monthly"][-1][0]
     raise RuntimeError("no Washington file found")
 

@@ -1,0 +1,7 @@
+{
+ "checked": "2026-11-25 04:28 UTC",
+ "ok": false,
+ "asof": null,
+ "last_ok": null,
+ "detail": "ValueError: time data 'Nov 20 2026' does not match format '%B %d %Y'"
+}

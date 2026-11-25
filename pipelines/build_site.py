@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "_site"
-EXCLUDE_DIRS = {"raw"}
+EXCLUDE_DIRS = {"raw", "status"}
 EXCLUDE_FILES = {"status.json", "assumptions.json", "catchup.json"}
 
 
@@ -29,7 +29,7 @@ def primers():
 
 
 def asof():
-    st = json.loads((ROOT / "data" / "status.json").read_text()) if (ROOT / "data" / "status.json").exists() else {}
+    st = {f.stem: json.loads(f.read_text()) for f in (ROOT / "data" / "status").glob("*.json")}
     (ROOT / "data" / "asof.json").write_text(json.dumps({k: v.get("asof") for k, v in st.items()}))
 
 

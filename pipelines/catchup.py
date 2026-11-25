@@ -4,7 +4,7 @@ writes data/catchup.json (kept in the repo, not published)."""
 import os, sys, time, json, datetime as dt
 import requests
 sys.path.insert(0, os.path.dirname(__file__))
-from common import DATA, read_json, write_json, now  # noqa: E402
+from common import DATA, read_json, write_json, now, status  # noqa: E402
 
 # source -> (workflow file, group, max hours since last success before it counts as late)
 FEEDS = {
@@ -25,7 +25,7 @@ def hours_since(t):
 
 
 def main():
-    st = read_json(DATA / "status.json", {}) or {}
+    st = status()
     late = {}
     for src, (wf, grp, mx) in FEEDS.items():
         s = st.get(src)

@@ -27,7 +27,7 @@ The site shows outputs and the variables behind them. Code, raw downloads, run l
 | `catch-up` | daily 02:43 UTC | reruns any feed that failed or is late (`pipelines/catchup.py`) |
 | `pages` | after each data run, on pushes | builds `_site/` and publishes it |
 
-Run state per source: `data/status.json`; history: `logs/runs.jsonl`; catch-up results: `data/catchup.json` (none published).
+Run state per source: `data/status/<source>.json`; history: `logs/<source>.jsonl`; catch-up results: `data/catchup.json` (none published).
 
 ## One-time setup (repo admin)
 1. Settings → Pages → Source: **GitHub Actions**.
