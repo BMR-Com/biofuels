@@ -1,6 +1,7 @@
-{"t": "2026-11-25 04:28 UTC", "source": "prices", "ok": true, "asof": "2026-11-25", "detail": ""}
-{"t": "2026-11-25 04:28 UTC", "source": "model_economics", "ok": true, "asof": "2026-11-25", "detail": ""}
-{"t": "2026-11-25 04:28 UTC", "source": "model_balance", "ok": true, "asof": "2026-11-25", "detail": ""}
-{"t": "2026-11-25 04:28 UTC", "source": "news", "ok": true, "asof": "2026-11-24", "detail": ""}
-{"t": "2026-11-25 04:28 UTC", "source": "policy_fedreg", "ok": true, "asof": "2026-10-16", "detail": ""}
-{"t": "2026-11-25 04:28 UTC", "source": "policy_watch", "ok": true, "asof": "2026-11-25", "detail": ""}
+{"t": "2026-11-25 04:28 UTC", "source": "ams_cash", "ok": false, "asof": null, "detail": "ValueError: time data 'Nov 20 2026' does not match format '%B %d %Y'"}
+{"t": "2026-11-25 04:28 UTC", "source": "lcfs_ca_monthly", "ok": true, "asof": "2026-08", "detail": ""}
+{"t": "2026-11-25 04:28 UTC", "source": "lcfs_ca_weekly", "ok": true, "asof": "2026-11-25", "detail": ""}
+{"t": "2026-11-25 04:28 UTC", "source": "lcfs_oregon", "ok": true, "asof": "2723-01", "detail": ""}
+{"t": "2026-11-25 04:28 UTC", "source": "lcfs_washington", "ok": true, "asof": "1157-01", "detail": ""}
+{"t": "2026-11-25 04:29 UTC", "source": "eia_spot", "ok": true, "asof": "2026-11-17", "detail": ""}
+{"t": "2026-11-25 04:29 UTC", "source": "model_economics", "ok": false, "asof": null, "detail": "RuntimeError: no prices"}

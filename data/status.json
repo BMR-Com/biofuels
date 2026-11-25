@@ -1,44 +1,51 @@
 {
- "prices": {
+ "ams_cash": {
+  "checked": "2026-11-25 04:28 UTC",
+  "ok": false,
+  "asof": null,
+  "last_ok": null,
+  "detail": "ValueError: time data 'Nov 20 2026' does not match format '%B %d %Y'"
+ },
+ "lcfs_ca_monthly": {
+  "checked": "2026-11-25 04:28 UTC",
+  "ok": true,
+  "asof": "2026-08",
+  "last_ok": "2026-11-25 04:28 UTC",
+  "detail": ""
+ },
+ "lcfs_ca_weekly": {
   "checked": "2026-11-25 04:28 UTC",
   "ok": true,
   "asof": "2026-11-25",
   "last_ok": "2026-11-25 04:28 UTC",
+  "detail": ""
+ },
+ "lcfs_oregon": {
+  "checked": "2026-11-25 04:28 UTC",
+  "ok": true,
+  "asof": "2723-01",
+  "last_ok": "2026-11-25 04:28 UTC",
+  "detail": ""
+ },
+ "lcfs_washington": {
+  "checked": "2026-11-25 04:28 UTC",
+  "ok": true,
+  "asof": "1157-01",
+  "last_ok": "2026-11-25 04:28 UTC",
+  "detail": ""
+ },
+ "eia_spot": {
+  "checked": "2026-11-25 04:29 UTC",
+  "ok": true,
+  "asof": "2026-11-17",
+  "last_ok": "2026-11-25 04:29 UTC",
   "detail": ""
  },
  "model_economics": {
-  "checked": "2026-11-25 04:28 UTC",
-  "ok": true,
-  "asof": "2026-11-25",
-  "last_ok": "2026-11-25 04:28 UTC",
-  "detail": ""
- },
- "model_balance": {
-  "checked": "2026-11-25 04:28 UTC",
-  "ok": true,
-  "asof": "2026-11-25",
-  "last_ok": "2026-11-25 04:28 UTC",
-  "detail": ""
- },
- "news": {
-  "checked": "2026-11-25 04:28 UTC",
-  "ok": true,
-  "asof": "2026-11-24",
-  "last_ok": "2026-11-25 04:28 UTC",
-  "detail": ""
- },
- "policy_fedreg": {
-  "checked": "2026-11-25 04:28 UTC",
-  "ok": true,
-  "asof": "2026-10-16",
-  "last_ok": "2026-11-25 04:28 UTC",
-  "detail": ""
- },
- "policy_watch": {
-  "checked": "2026-11-25 04:28 UTC",
-  "ok": true,
-  "asof": "2026-11-25",
-  "last_ok": "2026-11-25 04:28 UTC",
-  "detail": ""
+  "checked": "2026-11-25 04:29 UTC",
+  "ok": false,
+  "asof": null,
+  "last_ok": null,
+  "detail": "RuntimeError: no prices"
  }
 }
