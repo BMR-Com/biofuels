@@ -24,11 +24,16 @@
    "2026-08",
    77.0,
    3193000
+  ],
+  [
+   "2026-09",
+   81.0,
+   4586000
   ]
  ],
  "seed_note": "Seeded from CARB monthly LCFS credit transfer reports; the monthly job appends newer months.",
  "ca_weekly": {
-  "avg_price": 83.77,
+  "avg_price": 82.72,
   "week": null,
   "checked": "2026-11-25"
  },
