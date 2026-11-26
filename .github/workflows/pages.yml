@@ -11,10 +11,11 @@ on:
 permissions: {contents: read, pages: write, id-token: write}
 concurrency: {group: pages, cancel-in-progress: true}
 jobs:
-  deploy:
+  # Build and deploy are separate jobs (GitHub's standard layout): deploy-pages in the same job as the upload
+  # sometimes cannot see the just-uploaded artifact yet ("No artifacts named github-pages").
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    environment: {name: github-pages, url: '${{ steps.dep.outputs.page_url }}'}
     steps:
       - uses: actions/checkout@v4
         with: {ref: main}
@@ -25,5 +26,11 @@ jobs:
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: {path: _site}
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: {name: github-pages, url: '${{ steps.dep.outputs.page_url }}'}
+    steps:
       - id: dep
         uses: actions/deploy-pages@v4
