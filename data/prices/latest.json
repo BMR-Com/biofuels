@@ -1,103 +1,103 @@
 {
- "updated": "2026-11-25 12:47",
+ "updated": "2026-11-26 04:25",
  "prices": {
   "ZL": {
-   "close": 58.32,
-   "date": "2026-11-24",
+   "close": 58.37,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "c/lb",
    "desc": "CBOT soybean oil",
-   "prev": 59.55,
+   "prev": 58.32,
    "stale": false
   },
   "ZS": {
-   "close": 1234.0,
-   "date": "2026-11-24",
+   "close": 1244.0,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "c/bu",
    "desc": "CBOT soybeans",
-   "prev": 1228.75,
+   "prev": 1234.0,
    "stale": false
   },
   "ZM": {
-   "close": 351.1,
-   "date": "2026-11-24",
+   "close": 358.1,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "$/st",
    "desc": "CBOT soybean meal",
-   "prev": 344.5,
+   "prev": 351.1,
    "stale": false
   },
   "ZC": {
-   "close": 434.0,
-   "date": "2026-11-24",
+   "close": 439.75,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "c/bu",
    "desc": "CBOT corn",
-   "prev": 434.25,
+   "prev": 434.0,
    "stale": false
   },
   "OSF": {
-   "close": 45.375,
-   "date": "2026-11-24",
+   "close": 44.9,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "%",
    "desc": "CBOT soybean oilshare",
-   "prev": 46.35,
+   "prev": 45.375,
    "stale": false
   },
   "HO": {
-   "close": 3.6588,
-   "date": "2026-11-24",
+   "close": 3.6531,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "$/gal",
    "desc": "NYMEX NY Harbor ULSD",
-   "prev": 3.6446,
+   "prev": 3.6588,
    "stale": false
   },
   "RB": {
-   "close": 2.4406,
-   "date": "2026-11-24",
+   "close": 2.4364,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "$/gal",
    "desc": "NYMEX RBOB gasoline",
-   "prev": 2.3933,
+   "prev": 2.4406,
    "stale": false
   },
   "CL": {
-   "close": 82.05,
-   "date": "2026-11-24",
+   "close": 83.68,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "$/bbl",
    "desc": "NYMEX WTI crude",
-   "prev": 80.17,
+   "prev": 82.05,
    "stale": false
   },
   "CU": {
-   "close": 1.855,
-   "date": "2026-11-24",
+   "close": 1.86,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "$/gal",
    "desc": "Chicago ethanol (Platts) swap",
-   "prev": 1.875,
+   "prev": 1.855,
    "stale": false
   },
   "RN4": {
-   "close": 2.0035,
-   "date": "2026-11-23",
+   "close": 1.9822,
+   "date": "2026-11-24",
    "contract": "c1",
    "unit": "$/RIN",
    "desc": "D4 biomass-based diesel RIN (OPIS)",
-   "prev": 2.0176,
+   "prev": 2.0035,
    "stale": false
   },
   "RN6": {
-   "close": 1.8719,
-   "date": "2026-11-23",
+   "close": 1.8345,
+   "date": "2026-11-24",
    "contract": "c1",
    "unit": "$/RIN",
    "desc": "D6 renewable fuel RIN (OPIS)",
-   "prev": 1.8817,
+   "prev": 1.8719,
    "stale": false
   },
   "RN3": {
@@ -119,21 +119,21 @@
    "stale": true
   },
   "BHO": {
-   "close": 0.7152,
-   "date": "2026-11-24",
+   "close": 0.7247,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "$/gal",
    "desc": "Soybean oil vs NYH ULSD spread swap",
-   "prev": 0.5372,
+   "prev": 0.7152,
    "stale": false
   },
   "FCPO": {
-   "close": 4229.0,
-   "date": "2026-11-24",
+   "close": 4241.0,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "MYR/t",
    "desc": "Bursa crude palm oil",
-   "prev": 4240.0,
+   "prev": 4229.0,
    "stale": false
   },
   "FUCO": {
@@ -146,30 +146,30 @@
    "stale": false
   },
   "RS": {
-   "close": 771.7,
-   "date": "2026-11-24",
+   "close": 770.7,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "CAD/t",
    "desc": "ICE canola",
-   "prev": 775.3,
+   "prev": 771.7,
    "stale": false
   },
   "ECO": {
-   "close": 536.5,
-   "date": "2026-11-24",
+   "close": 533.5,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "EUR/t",
    "desc": "Euronext rapeseed",
-   "prev": 538.5,
+   "prev": 536.5,
    "stale": false
   },
   "ULS": {
-   "close": 1101.75,
-   "date": "2026-11-24",
+   "close": 1127.5,
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "$/t",
    "desc": "ICE low sulphur gasoil",
-   "prev": 1121.25,
+   "prev": 1101.75,
    "stale": false
   },
   "FBD": {
@@ -200,22 +200,22 @@
    "stale": true
   },
   "USDMYR": {
-   "close": 4.119,
-   "date": "2026-11-25",
+   "close": 4.115,
+   "date": "2026-11-26",
    "unit": "fx",
    "desc": "USDMYR",
    "stale": false
   },
   "USDCAD": {
-   "close": 1.42596,
-   "date": "2026-11-25",
+   "close": 1.42197,
+   "date": "2026-11-26",
    "unit": "fx",
    "desc": "USDCAD",
    "stale": false
   },
   "EURUSD": {
-   "close": 1.09484,
-   "date": "2026-11-25",
+   "close": 1.09614,
+   "date": "2026-11-26",
    "unit": "fx",
    "desc": "EURUSD",
    "stale": false
