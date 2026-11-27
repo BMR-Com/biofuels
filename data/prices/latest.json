@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 04:25",
+ "updated": "2026-11-27 04:34",
  "prices": {
   "ZL": {
    "close": 58.37,
@@ -47,30 +47,30 @@
    "stale": false
   },
   "HO": {
-   "close": 3.6531,
-   "date": "2026-11-25",
+   "close": 3.7334,
+   "date": "2026-11-26",
    "contract": "c1",
    "unit": "$/gal",
    "desc": "NYMEX NY Harbor ULSD",
-   "prev": 3.6588,
+   "prev": 3.6531,
    "stale": false
   },
   "RB": {
-   "close": 2.4364,
-   "date": "2026-11-25",
+   "close": 2.4606,
+   "date": "2026-11-26",
    "contract": "c1",
    "unit": "$/gal",
    "desc": "NYMEX RBOB gasoline",
-   "prev": 2.4406,
+   "prev": 2.4364,
    "stale": false
   },
   "CL": {
-   "close": 83.68,
-   "date": "2026-11-25",
+   "close": 85.74,
+   "date": "2026-11-26",
    "contract": "c1",
    "unit": "$/bbl",
    "desc": "NYMEX WTI crude",
-   "prev": 82.05,
+   "prev": 83.68,
    "stale": false
   },
   "CU": {
@@ -128,17 +128,17 @@
    "stale": false
   },
   "FCPO": {
-   "close": 4241.0,
-   "date": "2026-11-25",
+   "close": 4336.0,
+   "date": "2026-11-26",
    "contract": "c1",
    "unit": "MYR/t",
    "desc": "Bursa crude palm oil",
-   "prev": 4229.0,
+   "prev": 4292.0,
    "stale": false
   },
   "FUCO": {
    "close": 903.5,
-   "date": "2026-11-24",
+   "date": "2026-11-25",
    "contract": "c1",
    "unit": "$/t",
    "desc": "Bursa used cooking oil",
@@ -146,30 +146,30 @@
    "stale": false
   },
   "RS": {
-   "close": 770.7,
-   "date": "2026-11-25",
+   "close": 768.6,
+   "date": "2026-11-26",
    "contract": "c1",
    "unit": "CAD/t",
    "desc": "ICE canola",
-   "prev": 771.7,
+   "prev": 770.7,
    "stale": false
   },
   "ECO": {
-   "close": 533.5,
-   "date": "2026-11-25",
+   "close": 530.25,
+   "date": "2026-11-26",
    "contract": "c1",
    "unit": "EUR/t",
    "desc": "Euronext rapeseed",
-   "prev": 536.5,
+   "prev": 533.5,
    "stale": false
   },
   "ULS": {
-   "close": 1127.5,
-   "date": "2026-11-25",
+   "close": 1143.25,
+   "date": "2026-11-26",
    "contract": "c1",
    "unit": "$/t",
    "desc": "ICE low sulphur gasoil",
-   "prev": 1101.75,
+   "prev": 1127.5,
    "stale": false
   },
   "FBD": {
@@ -200,22 +200,22 @@
    "stale": true
   },
   "USDMYR": {
-   "close": 4.115,
-   "date": "2026-11-26",
+   "close": 4.116,
+   "date": "2026-11-27",
    "unit": "fx",
    "desc": "USDMYR",
    "stale": false
   },
   "USDCAD": {
-   "close": 1.42197,
-   "date": "2026-11-26",
+   "close": 1.42469,
+   "date": "2026-11-27",
    "unit": "fx",
    "desc": "USDCAD",
    "stale": false
   },
   "EURUSD": {
-   "close": 1.09614,
-   "date": "2026-11-26",
+   "close": 1.0972,
+   "date": "2026-11-27",
    "unit": "fx",
    "desc": "EURUSD",
    "stale": false
